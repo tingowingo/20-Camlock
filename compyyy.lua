@@ -30,9 +30,6 @@ getgenv().DNS = {
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/matas3535/PoopLibrary/main/Library.lua"))() -- Could Also Save It In Your Workspace And Do loadfile("Library.lua")()
  
---shit resolver VVVVV
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Trexxus/Resolver/main/Res.lua"))()
 local Window = Library:New({Name = ",_, | 20 CAMLOCK | PRIVATE", Size = Vector2.new(492, 598), Accent = Color3.fromRGB(160, 25, 240)})
 --
 local Aimbot = Window:Page({Name = "Aimbot"})
