@@ -30,12 +30,12 @@ getgenv().DNS = {
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/matas3535/PoopLibrary/main/Library.lua"))() -- Could Also Save It In Your Workspace And Do loadfile("Library.lua")()
 
-local Window = Library:New({Name = ",_, | 20 CAMLOCK | PRIVATE", Size = Vector2.new(489, 570), Accent = Color3.fromRGB(25, 240, 100)})
+local Window = Library:New({Name = ",_, | 20 CAMLOCK | PRIVATE", Size = Vector2.new(492, 598), Accent = Color3.fromRGB(160, 25, 240)})
 --
 local Aimbot = Window:Page({Name = "Aimbot"})
 local Settings = Window:Page({Name = "Settings"})
 --
-local uwuAimbot = Aimbot:Section({Name = "Main", Side = "Left"})
+    local uwuAimbot = Aimbot:Section({Name = "Main", Side = "Left"})
 local uwuMisc = Aimbot:Section({Name = "Misc", Side = "Right"})
 local uwuSettings = Aimbot:Section({Name = "Settings", Side = "Left"})
 --
@@ -108,6 +108,12 @@ getgenv().DNS.FOV["Radius"] = v
  
 end  
 })
+
+uwuSettings:Button({Name = " Shitty Resolver (One click)",
+ local function Resolver()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Trexxus/Resolver/main/Res.lua"))()
+        end
+       Resolver()
 
 uwuSettings:Slider({Name = "Shake Value",
 Minimum = 0.5,
